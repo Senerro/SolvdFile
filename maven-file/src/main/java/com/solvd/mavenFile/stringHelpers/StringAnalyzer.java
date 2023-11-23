@@ -5,6 +5,7 @@ import org.apache.commons.lang3.text.WordUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class StringAnalyzer {
 
@@ -28,13 +29,14 @@ public class StringAnalyzer {
             list.remove(list.size()-1);
          return list;
     }
-    public static ArrayList<Character> purgeSpecials(ArrayList<Character> list)
+    public static List<Character> purgeSpecials(ArrayList<Character> list)
     {
         ArrayList<Character> cymbols = new ArrayList<>(Arrays.asList(
                 ',', '.', '&', '"', '?', '!', '@', '#', '$', '%', '^', '*', '(', ')', '+', '-', '/', '|', '<', '>', '\n', '\t', '\''));
         list.removeAll(cymbols);
         return list;
     }
+
     private static boolean isContainSpace(ArrayList<Character> list)
     {
         return list.contains(' ');

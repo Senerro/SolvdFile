@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c26cd083-add4-4110-abe6-3959a1631909" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/maven-file/File with up-case letters.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-file/file2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-file/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven-file/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-file/src/main/java/com/solvd/mavenFile/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven-file/src/main/java/com/solvd/mavenFile/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-file/src/main/java/com/solvd/mavenFile/file/FileWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven-file/src/main/java/com/solvd/mavenFile/file/FileWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-file/src/main/java/com/solvd/mavenFile/stringHelpers/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven-file/src/main/java/com/solvd/mavenFile/stringHelpers/Dictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-file/src/main/java/com/solvd/mavenFile/stringHelpers/StringContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven-file/src/main/java/com/solvd/mavenFile/stringHelpers/StringContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-file/src/main/java/com/solvd/mavenFile/stringHelpers/StringHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven-file/src/main/java/com/solvd/mavenFile/stringHelpers/StringHelper.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2YZVUZsJh0nc7yFhgomsXAbRWkr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "HW__28.11",
+    "last_opened_file_path": "C:/solvd/git/SolvdFile/maven-file"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c26cd083-add4-4110-abe6-3959a1631909" name="Changes" comment="" />
+      <created>1700733104718</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700733104718</updated>
+    </task>
+    <servers />
+  </component>
+</project>

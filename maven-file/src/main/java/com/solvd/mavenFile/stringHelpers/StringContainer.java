@@ -18,19 +18,27 @@ public class StringContainer
                 {
                     if(dictionary.get(i).equals(myWord))
                     {
-                        dictionary.get(i).count();
+                        dictionary.get(i).increaseCount();
                     }
                 }
             }
-
-
     }
     private boolean isEmpty()
     {
         return dictionary.isEmpty();
     }
 
-    public int size() {
+    public int sizeUnique() {
         return dictionary.size();
     }
+    public int size()
+    {
+        int result = 0;
+        for (var element:dictionary)
+        {
+            result += element.count();
+        }
+        return result;
+    }
+
 }

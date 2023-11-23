@@ -1,0 +1,3 @@
+default text is Some Text1 SomeText2 some
+[ Text1 ] [ SomeText2 ] 
+ Text has 2 unique word

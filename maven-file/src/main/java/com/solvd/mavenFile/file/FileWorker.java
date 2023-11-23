@@ -1,11 +1,15 @@
 package com.solvd.mavenFile.file;
 
-import org.apache.logging.log4j.core.util.FileUtils;
 
+
+import com.solvd.mavenFile.stringHelpers.StringHelper;
+import org.apache.commons.io.FileUtils;
+import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
 
 public class FileWorker
 {
@@ -13,17 +17,18 @@ public class FileWorker
     {
         try(FileWriter writer = new FileWriter(fileName+fileFormat, false))
         {
-
             writer.write(text);
-
             writer.append('\n');
-
             writer.flush();
         }
         catch(IOException ex){
 
             System.out.println(ex.getMessage());
         }
+    }
+    public static void add(String fileName2, String fileFormat, List<String> lines) throws IOException {
+        File file = new File(fileName2+fileFormat);
+        FileUtils.writeLines(file, "UTF-8", lines);
     }
     public  static ArrayList<Character> get(String fileName, String fileFormat)
     {
@@ -45,5 +50,12 @@ public class FileWorker
         }
         return charLisr;
     }
-    
+    public static void writeInFile(String PATH, String text) throws IOException {
+        File file = new File(PATH);
+        List<String> lines = FileUtils.readLines(file, "UTF-8");
+       // FileUtils.writeLines(file, toCharTranformation(text));
+
+    }
+
+
 }

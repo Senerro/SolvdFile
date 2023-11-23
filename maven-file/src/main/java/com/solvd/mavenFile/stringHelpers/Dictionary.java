@@ -18,8 +18,12 @@ public class Dictionary {
         return this.word;
     }
 
-    public void count() {
+    public void increaseCount() {
         count++;
+    }
+    public int count()
+    {
+        return count;
     }
     @Override
     public int hashCode()
