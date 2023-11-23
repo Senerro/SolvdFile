@@ -54,4 +54,20 @@ public class StringAnalyzer {
         return returnString.toString();
     }
 
+    public static boolean CheckSymbols(String str)
+    {
+
+        return StringUtils.containsAny(str, ",", ".", "&", "?", "!", "@", "#", "$", "%", "^", "*", "(", ")", "+", "-", "/", "|", "<", ">", "\n", "\t", "\n");
+    }
+
+    public static boolean CheckFigure(String str)
+    {
+        return StringUtils.containsAny(str, "1", "2", "3", "4", "5", "6", "7", "8", "9", "0");
+
+    }
+
+    public static boolean CheckSpace(String str)
+    {
+        return StringUtils.containsAny(str, " ");
+    }
 }

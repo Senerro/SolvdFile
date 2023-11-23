@@ -1,4 +1,4 @@
-default text is [S, O, M, E, T, E, X, T, 1, S, O, M, E, T, E, X, T, 2, S, O, M, E]
+default text is Text text text Text Text Text
 
-Current text is S O M E T E X T 1 S O M E T E X T 2 S O M E
-Count of letters at whole is 22
+Current text is T E X T T E X T T E X T T E X T T E X T T E X T
+Count of letters at whole is 24

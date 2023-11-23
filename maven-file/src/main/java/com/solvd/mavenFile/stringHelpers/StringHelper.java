@@ -160,10 +160,11 @@ public class StringHelper
        return list;
    }
 
-    public static String[] HW_28_11_1(ArrayList<Character> dictionary, StringContainer container)
+    public static String[] HW_28_11_1(String str)
     {
-        String[] answer = new String[]{"default text is " + dictionary +"\n", "Current text is ", ""};
-
+        var dictionary = StringHelper.devineByLetters(str);
+        String[] answer = new String[]{"default text is " + str +"\n", "Current text is ", ""};
+        StringHelper.upCaseOfAllLetters(dictionary);
         var a = StringUtils.join(dictionary, " ");
         answer[1] += a;
         answer[2] += "Count of letters at whole is "+ (a.length()/2+1);
@@ -171,12 +172,14 @@ public class StringHelper
 
     }
 
-    public static String[] HW_28_11_0(String[] dictionary, String str)
+    public static String[] HW_28_11_0(String str)
     {
         int uniqueWordCounter = 0;
         boolean isSpotted;
+
+        var dictionary = StringHelper.devineByWords(str);
         var joinedDictionary = StringUtils.join(dictionary, " ");
-        String[] result = new String[]{"default text is " + joinedDictionary, "", ""};
+        String[] result = new String[]{"default text is " + str, "", ""};
 
 
         for(var element: dictionary)
@@ -197,5 +200,42 @@ public class StringHelper
 
          result[2] += " Text has " + uniqueWordCounter + " unique word";
         return result;
+    }
+
+    public static String[] HW_28_11_2(String[] dictionary, String word)
+    {
+        String[] answer = new String[]{"default text is " + StringUtils.join(dictionary, " "),
+                " Searchable word is " + word, "Matches count is "};
+
+        var a = StringUtils.join(dictionary, " ");
+        var b = a.toUpperCase();
+        var result = StringUtils.countMatches(b, word.toUpperCase());
+        answer[2] += result;
+
+        return answer;
+    }
+
+    public static boolean CheckSpace(String str){
+    return  StringAnalyzer.CheckSpace(str);
+    }
+    public static ArrayList<Character> toCharacterListFromString(String str)
+    {
+        ArrayList<Character> characters = new ArrayList<>();
+        var array = str.toCharArray();
+        for (var element:array)
+        {
+            characters.add(element);
+        }
+        return characters;
+    }
+
+    public static boolean CheckCymbols(String str)
+    {
+       return StringAnalyzer.CheckSymbols(str);
+    }
+
+    public static boolean CheckFigure(String str)
+    {
+        return StringAnalyzer.CheckFigure(str);
     }
 }
