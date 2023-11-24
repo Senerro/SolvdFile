@@ -17,6 +17,7 @@ public class FileWorker
     {
         try(FileWriter writer = new FileWriter(fileName+fileFormat, false))
         {
+
             writer.write(text);
             writer.append('\n');
             writer.flush();
@@ -27,7 +28,8 @@ public class FileWorker
         }
     }
     public static void add(String fileName2, String fileFormat, List<String> lines) throws IOException {
-        File file = new File(fileName2+fileFormat);
+
+        File file = new File("src/main/resources/"+fileName2+fileFormat);
         FileUtils.writeLines(file, "UTF-8", lines);
     }
     public  static ArrayList<Character> get(String fileName, String fileFormat)
@@ -49,12 +51,6 @@ public class FileWorker
             System.out.println(ex.getMessage());
         }
         return charLisr;
-    }
-    public static void writeInFile(String PATH, String text) throws IOException {
-        File file = new File(PATH);
-        List<String> lines = FileUtils.readLines(file, "UTF-8");
-       // FileUtils.writeLines(file, toCharTranformation(text));
-
     }
 
 

@@ -1,0 +1,18 @@
+=========
+default text is asdfg tytyyu
+[ asdfg ][ tytyyu ]
+ Text has 2 unique word
+
+
+default text is asdfg tytyyu
+
+Current text is A S D F G T Y T Y Y U
+Count of letters at whole is 11
+
+
+default text is asdfg tytyyu
+ Searchable word is s
+Matches count is 0
+
+
+===============

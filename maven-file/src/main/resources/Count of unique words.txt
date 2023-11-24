@@ -1,0 +1,3 @@
+default text is asdfg tytyyu
+[ asdfg ][ tytyyu ]
+ Text has 2 unique word

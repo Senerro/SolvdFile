@@ -41,4 +41,7 @@ public class StringContainer
         return result;
     }
 
+    public ArrayList<Dictionary> dictionary() {
+        return dictionary;
+    }
 }

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2f84ed7e-1035-4bd9-bf56-5930ce71e8aa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log4j.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Count of unique words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Count of unique words.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File with up-case letters.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../File with up-case letters.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../file2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../file2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../file3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../file3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/solvd/mavenFile/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/solvd/mavenFile/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/solvd/mavenFile/file/FileWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/solvd/mavenFile/file/FileWorker.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2YcJbctBuJF1RYe634X5RuY2vQG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "newMain",
+    "last_opened_file_path": "C:/solvd/git/io_project"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f84ed7e-1035-4bd9-bf56-5930ce71e8aa" name="Changes" comment="" />
+      <created>1700819007058</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700819007058</updated>
+    </task>
+    <servers />
+  </component>
+</project>

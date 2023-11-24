@@ -10,7 +10,7 @@ public class Dictionary {
     public Dictionary(String word)
     {
       //  this.word = WordUtils.capitalize(word);
-        this.word = word.toUpperCase();
+        this.word = word.toLowerCase();
         count = 1;
     }
     public String word()
@@ -28,7 +28,7 @@ public class Dictionary {
     @Override
     public int hashCode()
     {
-        return Objects.hash(word, this.getClass());
+        return Objects.hash(word.toLowerCase(), this.getClass());
     }
     @Override
     public boolean equals(Object object)

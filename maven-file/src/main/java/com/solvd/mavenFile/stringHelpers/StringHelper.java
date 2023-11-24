@@ -88,8 +88,6 @@ public class StringHelper
         {
             int c;
             while((c=reader.read())!=-1){
-
-                System.out.print((char)c);
                 charLisr.add((char)c);
             }
 
@@ -102,8 +100,8 @@ public class StringHelper
     }
 
     public static ArrayList<Character> readFile(String fileName) throws IOException {
-        File file = new File(fileName + ".txt");
-        String lines = FileUtils.readFileToString(file, "UTF-8");
+        var file = new File(fileName + ".txt");
+        var lines = FileUtils.readFileToString(file, "UTF-8");
 
         return toCharacterArrayTransformation(lines);
     }
@@ -141,7 +139,6 @@ public class StringHelper
         for(int i = 0; i < letters.size(); i++)
         {
                 var c  = StringUtils.capitalize(letters.get(i).toString()).toCharArray()[0];
-
             letters.set(i, c);
         }
         return letters;
@@ -179,26 +176,33 @@ public class StringHelper
 
         var dictionary = StringHelper.devineByWords(str);
         var joinedDictionary = StringUtils.join(dictionary, " ");
+        joinedDictionary = joinedDictionary.toLowerCase();
+        joinedDictionary = " " + joinedDictionary;
+        joinedDictionary = joinedDictionary + " ";
         String[] result = new String[]{"default text is " + str, "", ""};
+        StringContainer container = new StringContainer();
 
+        for(var element: dictionary) {
 
-        for(var element: dictionary)
-        {
-            isSpotted = StringUtils.containsIgnoreCase(joinedDictionary, element);
-            int matches = StringUtils.countMatches(joinedDictionary, element);
-            if(isSpotted)
+            if (element.length() >= 2)
             {
-                var removedJoinedDictionary = StringUtils.remove(str, element);
-                isSpotted = StringUtils.containsIgnoreCase(removedJoinedDictionary, element);
-                if(!isSpotted)
+                String findable = " " + element + " ";
+                int count = StringUtils.countMatches(joinedDictionary.toLowerCase(), findable.toLowerCase());
+                if(count==1)
                 {
                     uniqueWordCounter++;
-                    result[1] += "[ " + element + " ] ";
+                    result[1] += "[ " + element + " ]";
+                }
+                else
+                {
+                    container.add(element);
                 }
             }
         }
-
-         result[2] += " Text has " + uniqueWordCounter + " unique word";
+        for (var element1: container.dictionary()) {
+            result[1] += "[ " + element1.word() + " ] ";
+        }
+         result[2] += " Text has " + (uniqueWordCounter + container.dictionary().size()) + " unique word";
         return result;
     }
 
@@ -208,8 +212,10 @@ public class StringHelper
                 " Searchable word is " + word, "Matches count is "};
 
         var a = StringUtils.join(dictionary, " ");
-        var b = a.toUpperCase();
-        var result = StringUtils.countMatches(b, word.toUpperCase());
+        var b = a.toLowerCase();
+        b = " " + b + " ";
+        var findable = " " + word.toLowerCase() + " ";
+        var result = StringUtils.countMatches(b, findable);
         answer[2] += result;
 
         return answer;
@@ -237,5 +243,9 @@ public class StringHelper
     public static boolean CheckFigure(String str)
     {
         return StringAnalyzer.CheckFigure(str);
+    }
+
+
+    public static void writeInFile(String fileName, String s, ArrayList<Character> file1) {
     }
 }

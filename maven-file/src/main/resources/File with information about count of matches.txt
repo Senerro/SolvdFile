@@ -1,0 +1,3 @@
+default text is asdfg tytyyu
+ Searchable word is s
+Matches count is 0

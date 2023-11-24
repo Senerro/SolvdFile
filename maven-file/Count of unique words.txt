@@ -1,3 +1,0 @@
-default text is Text text text Text Text Text
-
- Text has 0 unique word

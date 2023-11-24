@@ -1,4 +1,0 @@
-default text is Text text text Text Text Text
-
-Current text is T E X T T E X T T E X T T E X T T E X T T E X T
-Count of letters at whole is 24
