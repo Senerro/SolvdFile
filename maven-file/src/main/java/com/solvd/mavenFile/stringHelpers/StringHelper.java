@@ -192,11 +192,11 @@ public class StringHelper
         String[] answer = new String[]{"default text is " + StringUtils.join(dictionary, " "),
                 " Searchable word is " + word, "Matches count is "};
 
-        var a = StringUtils.join(dictionary, " ");
-        var b = a.toLowerCase();
-        b = " " + b + " ";
-        var findable = " " + word.toLowerCase() + " ";
-        var result = StringUtils.countMatches(b, findable);
+        var str = StringUtils.join(dictionary, "./.");
+        var strLow = str.toLowerCase();
+        strLow = "." + strLow + ".";
+        var findable = "." + word.toLowerCase() + ".";
+        var result = StringUtils.countMatches(strLow, findable);
         answer[2] += result;
 
         return answer;

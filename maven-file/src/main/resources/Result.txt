@@ -1,18 +1,18 @@
 =========
-default text is dfdf
-[ dfdf ]
- Text has 1 unique word
+default text is bara bara bara bere bere bere
+[ bara ] [ bere ] 
+ Text has 2 unique word
 
 
-default text is dfdf
+default text is bara bara bara bere bere bere
 
-Current text is D F D F
-Count of letters at whole is 4
+Current text is B A R A B A R A B A R A B E R E B E R E B E R E
+Count of letters at whole is 24
 
 
-default text is dfdf
- Searchable word is sd
-Matches count is 0
+default text is bara bara bara bere bere bere
+ Searchable word is bere
+Matches count is 3
 
 
 ===============

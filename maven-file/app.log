@@ -2515,3 +2515,157 @@
 [INFO ] 2023-11-25 15:03:54.292 [main] Main - Are you going to do smth or quit?
 [INFO ] 2023-11-25 15:03:54.292 [main] Main - [1] continue
 [INFO ] 2023-11-25 15:03:54.292 [main] Main - [2] quit]
+[INFO ] 2023-11-25 15:42:06.834 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 15:42:06.840 [main] Main - [1] continue
+[INFO ] 2023-11-25 15:42:06.840 [main] Main - [2] quit]
+[INFO ] 2023-11-25 15:42:09.153 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 15:42:09.153 [main] Main - 1: File
+[INFO ] 2023-11-25 15:42:09.154 [main] Main - 2: Console
+[INFO ] 2023-11-25 15:42:10.859 [main] Main - Enter your text
+[INFO ] 2023-11-25 15:42:21.463 [main] Main - default text is bara bara bara bere bere bere
+[INFO ] 2023-11-25 15:42:21.463 [main] Main - [ bara ] [ bere ] 
+[INFO ] 2023-11-25 15:42:21.464 [main] Main -  Text has 2 unique word
+[INFO ] 2023-11-25 15:42:21.466 [main] Main - default text is bara bara bara, bere bere bere
+
+[INFO ] 2023-11-25 15:42:21.466 [main] Main - Current text is B A R A B A R A B A R A , B E R E B E R E B E R E
+[INFO ] 2023-11-25 15:42:21.466 [main] Main - Count of letters at whole is 25
+[INFO ] 2023-11-25 15:42:21.466 [main] Main - Enter your word
+[DEBUG] 2023-11-25 15:42:29.257 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 15:42:29.261 [main] Main - default text is bara bara bara, bere bere bere
+[INFO ] 2023-11-25 15:42:29.261 [main] Main -  Searchable word is bere
+[INFO ] 2023-11-25 15:42:29.261 [main] Main - Matches count is 2
+[INFO ] 2023-11-25 15:42:29.277 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 15:42:29.278 [main] Main - [1] continue
+[INFO ] 2023-11-25 15:42:29.278 [main] Main - [2] quit]
+[INFO ] 2023-11-25 15:42:50.558 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 15:42:50.559 [main] Main - 1: File
+[INFO ] 2023-11-25 15:42:50.559 [main] Main - 2: Console
+[INFO ] 2023-11-25 15:42:51.976 [main] Main - default text is Some text and other something interesting some
+[INFO ] 2023-11-25 15:42:51.976 [main] Main - [ text ][ and ][ other ][ something ][ interesting ][ some ] 
+[INFO ] 2023-11-25 15:42:51.976 [main] Main -  Text has 6 unique word
+[INFO ] 2023-11-25 15:42:51.981 [main] Main - default text is Some text and other something interesting some
+
+[INFO ] 2023-11-25 15:42:51.981 [main] Main - Current text is S O M E T E X T A N D O T H E R S O M E T H I N G I N T E R E S T I N G S O M E
+[INFO ] 2023-11-25 15:42:51.982 [main] Main - Count of letters at whole is 40
+[INFO ] 2023-11-25 15:42:51.984 [main] Main - Enter your word
+[DEBUG] 2023-11-25 15:42:54.489 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 15:42:54.492 [main] Main - default text is Some text and other something interesting some
+[INFO ] 2023-11-25 15:42:54.492 [main] Main -  Searchable word is df
+[INFO ] 2023-11-25 15:42:54.492 [main] Main - Matches count is 0
+[INFO ] 2023-11-25 15:42:54.503 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 15:42:54.503 [main] Main - [1] continue
+[INFO ] 2023-11-25 15:42:54.504 [main] Main - [2] quit]
+[INFO ] 2023-11-25 15:42:55.922 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 15:42:55.922 [main] Main - 1: File
+[INFO ] 2023-11-25 15:42:55.922 [main] Main - 2: Console
+[INFO ] 2023-11-25 15:42:56.852 [main] Main - Enter your text
+[INFO ] 2023-11-25 15:43:06.405 [main] Main - default text is bara bara bara bere bere bere
+[INFO ] 2023-11-25 15:43:06.406 [main] Main - [ bara ] [ bere ] 
+[INFO ] 2023-11-25 15:43:06.406 [main] Main -  Text has 2 unique word
+[INFO ] 2023-11-25 15:43:06.407 [main] Main - default text is bara bara bara, bere bere bere
+
+[INFO ] 2023-11-25 15:43:06.408 [main] Main - Current text is B A R A B A R A B A R A , B E R E B E R E B E R E
+[INFO ] 2023-11-25 15:43:06.408 [main] Main - Count of letters at whole is 25
+[INFO ] 2023-11-25 15:43:06.409 [main] Main - Enter your word
+[DEBUG] 2023-11-25 15:43:08.562 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 15:43:08.563 [main] Main - default text is bara bara bara, bere bere bere
+[INFO ] 2023-11-25 15:43:08.564 [main] Main -  Searchable word is bara
+[INFO ] 2023-11-25 15:43:08.564 [main] Main - Matches count is 1
+[INFO ] 2023-11-25 15:43:08.579 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 15:43:08.579 [main] Main - [1] continue
+[INFO ] 2023-11-25 15:43:08.580 [main] Main - [2] quit]
+[INFO ] 2023-11-25 15:46:14.298 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 15:46:14.303 [main] Main - [1] continue
+[INFO ] 2023-11-25 15:46:14.303 [main] Main - [2] quit]
+[INFO ] 2023-11-25 15:46:16.335 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 15:46:16.335 [main] Main - 1: File
+[INFO ] 2023-11-25 15:46:16.336 [main] Main - 2: Console
+[INFO ] 2023-11-25 15:46:18.501 [main] Main - Enter your text
+[INFO ] 2023-11-25 15:46:52.122 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 15:46:52.128 [main] Main - [1] continue
+[INFO ] 2023-11-25 15:46:52.128 [main] Main - [2] quit]
+[INFO ] 2023-11-25 15:46:53.372 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 15:46:53.372 [main] Main - 1: File
+[INFO ] 2023-11-25 15:46:53.373 [main] Main - 2: Console
+[INFO ] 2023-11-25 15:46:54.732 [main] Main - Enter your text
+[INFO ] 2023-11-25 15:46:56.461 [main] Main - default text is bara bara bara bere bere bere
+[INFO ] 2023-11-25 15:46:56.461 [main] Main - [ bara ] [ bere ] 
+[INFO ] 2023-11-25 15:46:56.462 [main] Main -  Text has 2 unique word
+[INFO ] 2023-11-25 15:46:56.463 [main] Main - default text is bara bara bara bere bere bere
+
+[INFO ] 2023-11-25 15:46:56.464 [main] Main - Current text is B A R A B A R A B A R A B E R E B E R E B E R E
+[INFO ] 2023-11-25 15:46:56.464 [main] Main - Count of letters at whole is 24
+[INFO ] 2023-11-25 15:46:56.464 [main] Main - Enter your word
+[DEBUG] 2023-11-25 15:47:02.231 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 15:48:57.238 [main] Main - default text is bara bara bara bere bere bere
+[INFO ] 2023-11-25 15:48:57.238 [main] Main -  Searchable word is bere
+[INFO ] 2023-11-25 15:48:57.238 [main] Main - Matches count is 2
+[INFO ] 2023-11-25 15:48:57.259 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 15:48:57.259 [main] Main - [1] continue
+[INFO ] 2023-11-25 15:48:57.259 [main] Main - [2] quit]
+[INFO ] 2023-11-25 15:50:26.588 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 15:50:26.591 [main] Main - [1] continue
+[INFO ] 2023-11-25 15:50:26.592 [main] Main - [2] quit]
+[INFO ] 2023-11-25 15:50:29.993 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 15:50:29.994 [main] Main - 1: File
+[INFO ] 2023-11-25 15:50:29.994 [main] Main - 2: Console
+[INFO ] 2023-11-25 15:50:30.805 [main] Main - Enter your text
+[INFO ] 2023-11-25 15:50:33.432 [main] Main - default text is bara bara bara bere bere bere
+[INFO ] 2023-11-25 15:50:33.433 [main] Main - [ bara ] [ bere ] 
+[INFO ] 2023-11-25 15:50:33.433 [main] Main -  Text has 2 unique word
+[INFO ] 2023-11-25 15:50:33.435 [main] Main - default text is bara bara bara bere bere bere
+
+[INFO ] 2023-11-25 15:50:33.436 [main] Main - Current text is B A R A B A R A B A R A B E R E B E R E B E R E
+[INFO ] 2023-11-25 15:50:33.436 [main] Main - Count of letters at whole is 24
+[INFO ] 2023-11-25 15:50:33.436 [main] Main - Enter your word
+[DEBUG] 2023-11-25 15:50:40.157 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 15:51:27.474 [main] Main - default text is bara bara bara bere bere bere
+[INFO ] 2023-11-25 15:51:27.474 [main] Main -  Searchable word is bere
+[INFO ] 2023-11-25 15:51:27.474 [main] Main - Matches count is 2
+[INFO ] 2023-11-25 15:51:27.483 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 15:51:27.484 [main] Main - [1] continue
+[INFO ] 2023-11-25 15:51:27.484 [main] Main - [2] quit]
+[INFO ] 2023-11-25 15:51:29.596 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 15:51:29.597 [main] Main - 1: File
+[INFO ] 2023-11-25 15:51:29.598 [main] Main - 2: Console
+[INFO ] 2023-11-25 15:51:30.531 [main] Main - Enter your text
+[INFO ] 2023-11-25 15:51:33.535 [main] Main - default text is bara bara bara bere bere bere
+[INFO ] 2023-11-25 15:51:33.536 [main] Main - [ bara ] [ bere ] 
+[INFO ] 2023-11-25 15:51:33.536 [main] Main -  Text has 2 unique word
+[INFO ] 2023-11-25 15:51:33.538 [main] Main - default text is bara bara bara bere bere bere
+
+[INFO ] 2023-11-25 15:51:33.539 [main] Main - Current text is B A R A B A R A B A R A B E R E B E R E B E R E
+[INFO ] 2023-11-25 15:51:33.539 [main] Main - Count of letters at whole is 24
+[INFO ] 2023-11-25 15:51:33.540 [main] Main - Enter your word
+[DEBUG] 2023-11-25 15:51:36.729 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 15:52:59.093 [main] Main - default text is bara bara bara bere bere bere
+[INFO ] 2023-11-25 15:52:59.094 [main] Main -  Searchable word is bara
+[INFO ] 2023-11-25 15:52:59.094 [main] Main - Matches count is 2
+[INFO ] 2023-11-25 15:52:59.109 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 15:52:59.109 [main] Main - [1] continue
+[INFO ] 2023-11-25 15:52:59.109 [main] Main - [2] quit]
+[INFO ] 2023-11-25 15:53:03.839 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 15:53:03.843 [main] Main - [1] continue
+[INFO ] 2023-11-25 15:53:03.844 [main] Main - [2] quit]
+[INFO ] 2023-11-25 15:53:20.263 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 15:53:20.267 [main] Main - [1] continue
+[INFO ] 2023-11-25 15:53:20.267 [main] Main - [2] quit]
+[INFO ] 2023-11-25 15:53:23.516 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 15:53:23.516 [main] Main - 1: File
+[INFO ] 2023-11-25 15:53:23.517 [main] Main - 2: Console
+[INFO ] 2023-11-25 15:53:24.532 [main] Main - Enter your text
+[INFO ] 2023-11-25 15:53:27.561 [main] Main - default text is bara bara bara bere bere bere
+[INFO ] 2023-11-25 15:53:27.562 [main] Main - [ bara ] [ bere ] 
+[INFO ] 2023-11-25 15:53:27.562 [main] Main -  Text has 2 unique word
+[INFO ] 2023-11-25 15:53:27.564 [main] Main - default text is bara bara bara bere bere bere
+
+[INFO ] 2023-11-25 15:53:27.564 [main] Main - Current text is B A R A B A R A B A R A B E R E B E R E B E R E
+[INFO ] 2023-11-25 15:53:27.564 [main] Main - Count of letters at whole is 24
+[INFO ] 2023-11-25 15:53:27.565 [main] Main - Enter your word
+[DEBUG] 2023-11-25 15:53:30.656 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 15:53:48.296 [main] Main - default text is bara bara bara bere bere bere
+[INFO ] 2023-11-25 15:53:48.296 [main] Main -  Searchable word is bere
+[INFO ] 2023-11-25 15:53:48.296 [main] Main - Matches count is 3
+[INFO ] 2023-11-25 15:53:48.310 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 15:53:48.310 [main] Main - [1] continue
+[INFO ] 2023-11-25 15:53:48.311 [main] Main - [2] quit]

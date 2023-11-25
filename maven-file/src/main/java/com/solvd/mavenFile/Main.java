@@ -3,16 +3,9 @@ package com.solvd.mavenFile;
 import com.solvd.mavenFile.exception.MyCustomeException;
 import com.solvd.mavenFile.file.FileWorker;
 import com.solvd.mavenFile.stringHelpers.StringHelper;
-import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import java.io.BufferedReader;
-import java.io.File;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.nio.charset.StandardCharsets;
-import java.util.List;
 import java.util.Scanner;
 public class Main {
 
@@ -31,7 +24,6 @@ public class Main {
     }
     public static void readFromFileForLetters(String fileName, String fileFormat, String fileText) throws IOException {
         {
-            //reading from file and calculate unique and non-unique letters
             StringHelper.writeInFile(fileName, fileFormat, fileText);
             var charactersLetterList = StringHelper.readFile(fileName);
             var str = StringHelper.transformation(charactersLetterList);
@@ -57,13 +49,9 @@ public class Main {
     }
     public static String getWordFromConsole() throws MyCustomeException {
         String anwser = "";
-
         log.info("Enter your word");
         try {
-         /*   BufferedReader rd = new BufferedReader(new InputStreamReader(System.in));*/
-
             anwser = input.nextLine();
-
             try {
                 Integer.parseInt(anwser);
                 throw new MyCustomeException("Answer is number");
@@ -72,30 +60,20 @@ public class Main {
             {
                 log.debug("answer is not numeric");
             }
-
-
             if(anwser.length()==1)
                 throw new MyCustomeException("Entered word was so little");
             if(StringHelper.CheckCymbols(anwser))
-            {
                 throw new MyCustomeException("You entered 1 or more special characters");
-            }
             if(StringHelper.CheckFigure(anwser))
-            {
                 throw new MyCustomeException("You entered one or more figure");
-            }
-
             if(StringHelper.CheckSpace(anwser))
-            {
                 throw new MyCustomeException("You entered a text, not single world");
-            }
         }
         catch(MyCustomeException e)
         {
           log.info(e.getMessage());
           getWordFromConsole();
         }
-
         return anwser;
     }
 
@@ -103,8 +81,6 @@ public class Main {
 
         String[] str = new String[]{"========="};
         StringHelper.writeInFile("Result", ".txt", str);
-
-
         boolean isWorking = true;
         do {
             log.info("Are you going to do smth or quit?");
@@ -137,7 +113,6 @@ public class Main {
             }
          FileWorker.saveSession();
     }
-
 
     private static void WorkWithConsole() throws MyCustomeException, IOException {
         log.info("Enter your text");
@@ -175,19 +150,6 @@ public class Main {
         for (var element:resultText) {
             log.info(element);
         }
-    }
-
-    private static String writeDownText(String wordFromConsole) throws MyCustomeException {
-        String word = "";
-        word = getWordFromConsole();
-
-        if(!word.isEmpty())
-        {
-            wordFromConsole+=(word);
-            wordFromConsole+="/";
-            writeDownText(wordFromConsole);
-        }
-       return wordFromConsole;
     }
 
     private static void WorkWithFile() throws IOException, MyCustomeException {
