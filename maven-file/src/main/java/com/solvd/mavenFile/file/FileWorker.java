@@ -8,6 +8,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -51,6 +52,32 @@ public class FileWorker
             System.out.println(ex.getMessage());
         }
         return charLisr;
+    }
+    public static void saveSession() throws IOException {
+
+        writeDownAllResults();
+    }
+    private static List<String> getSessionResolt(String fileRef) throws IOException {
+
+        File fromFile = new File(fileRef);
+
+        List<String> lines = FileUtils.readLines(fromFile, StandardCharsets.UTF_8);
+        return lines;
+    }
+    public static void writeDownAllResults() throws IOException {
+        var fileName = "src/main/resources/Result.txt";
+        File toFile = new File(fileName);
+        List<String> lines = getSessionResolt(fileName);
+        lines.addAll(getSessionResolt("src/main/resources/Count of unique words.txt"));
+        lines.add("\n");
+        lines.addAll(getSessionResolt("src/main/resources/File with up-case letters.txt"));
+        lines.add("\n");
+        lines.addAll(getSessionResolt("src/main/resources/File with information about count of matches.txt"));
+        lines.add("\n");
+        lines.add("===============");
+
+
+        FileUtils.writeLines(toFile, lines);
     }
 
 

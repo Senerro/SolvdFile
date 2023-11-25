@@ -2453,3 +2453,65 @@
 [INFO ] 2023-11-25 14:48:29.468 [main] Main - Are you going to do smth or quit?
 [INFO ] 2023-11-25 14:48:29.468 [main] Main - [1] continue
 [INFO ] 2023-11-25 14:48:29.468 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:58:39.389 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:58:39.396 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:58:39.397 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:58:41.824 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:58:41.825 [main] Main - 1: File
+[INFO ] 2023-11-25 14:58:41.826 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:58:42.952 [main] Main - default text is Some text and other something interesting some
+[INFO ] 2023-11-25 14:58:42.952 [main] Main - [ text ][ and ][ other ][ something ][ interesting ][ some ] 
+[INFO ] 2023-11-25 14:58:42.953 [main] Main -  Text has 6 unique word
+[INFO ] 2023-11-25 14:58:42.959 [main] Main - default text is Some text and other something interesting some
+
+[INFO ] 2023-11-25 14:58:42.959 [main] Main - Current text is S O M E T E X T A N D O T H E R S O M E T H I N G I N T E R E S T I N G S O M E
+[INFO ] 2023-11-25 14:58:42.960 [main] Main - Count of letters at whole is 40
+[INFO ] 2023-11-25 14:58:42.962 [main] Main - Enter your word
+[DEBUG] 2023-11-25 14:58:44.073 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 14:58:44.077 [main] Main - default text is Some text and other something interesting some
+[INFO ] 2023-11-25 14:58:44.078 [main] Main -  Searchable word is sd
+[INFO ] 2023-11-25 14:58:44.078 [main] Main - Matches count is 0
+[INFO ] 2023-11-25 14:58:44.085 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:58:44.085 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:58:44.086 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:58:45.356 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:58:45.356 [main] Main - 1: File
+[INFO ] 2023-11-25 14:58:45.357 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:58:46.376 [main] Main - Enter your text
+[INFO ] 2023-11-25 14:58:59.495 [main] Main - default text is FFF Bara bara bara bere bere bere
+[INFO ] 2023-11-25 14:58:59.496 [main] Main - [ FFF ][ bara ] [ bere ] 
+[INFO ] 2023-11-25 14:58:59.496 [main] Main -  Text has 3 unique word
+[INFO ] 2023-11-25 14:58:59.497 [main] Main - default text is FFF Bara bara bara, bere bere bere
+
+[INFO ] 2023-11-25 14:58:59.497 [main] Main - Current text is F F F B A R A B A R A B A R A , B E R E B E R E B E R E
+[INFO ] 2023-11-25 14:58:59.498 [main] Main - Count of letters at whole is 28
+[INFO ] 2023-11-25 14:58:59.498 [main] Main - Enter your word
+[DEBUG] 2023-11-25 14:59:02.090 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 14:59:02.092 [main] Main - default text is FFF Bara bara bara, bere bere bere
+[INFO ] 2023-11-25 14:59:02.093 [main] Main -  Searchable word is bere
+[INFO ] 2023-11-25 14:59:02.093 [main] Main - Matches count is 2
+[INFO ] 2023-11-25 14:59:02.108 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:59:02.109 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:59:02.109 [main] Main - [2] quit]
+[INFO ] 2023-11-25 15:03:45.256 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 15:03:45.263 [main] Main - [1] continue
+[INFO ] 2023-11-25 15:03:45.264 [main] Main - [2] quit]
+[INFO ] 2023-11-25 15:03:46.874 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 15:03:46.875 [main] Main - 1: File
+[INFO ] 2023-11-25 15:03:46.875 [main] Main - 2: Console
+[INFO ] 2023-11-25 15:03:47.632 [main] Main - Enter your text
+[INFO ] 2023-11-25 15:03:49.129 [main] Main - default text is dfdf
+[INFO ] 2023-11-25 15:03:49.130 [main] Main - [ dfdf ]
+[INFO ] 2023-11-25 15:03:49.130 [main] Main -  Text has 1 unique word
+[INFO ] 2023-11-25 15:03:49.132 [main] Main - default text is dfdf
+
+[INFO ] 2023-11-25 15:03:49.132 [main] Main - Current text is D F D F
+[INFO ] 2023-11-25 15:03:49.132 [main] Main - Count of letters at whole is 4
+[INFO ] 2023-11-25 15:03:49.133 [main] Main - Enter your word
+[DEBUG] 2023-11-25 15:03:54.270 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 15:03:54.274 [main] Main - default text is dfdf
+[INFO ] 2023-11-25 15:03:54.274 [main] Main -  Searchable word is sd
+[INFO ] 2023-11-25 15:03:54.275 [main] Main - Matches count is 0
+[INFO ] 2023-11-25 15:03:54.292 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 15:03:54.292 [main] Main - [1] continue
+[INFO ] 2023-11-25 15:03:54.292 [main] Main - [2] quit]

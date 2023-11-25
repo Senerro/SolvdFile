@@ -1,6 +1,7 @@
 package com.solvd.mavenFile;
 
 import com.solvd.mavenFile.exception.MyCustomeException;
+import com.solvd.mavenFile.file.FileWorker;
 import com.solvd.mavenFile.stringHelpers.StringHelper;
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
@@ -109,10 +110,7 @@ public class Main {
             log.info("Are you going to do smth or quit?");
             log.info("[1] continue");
             log.info("[2] quit]");
-
             String answer = input.nextLine();
-
-
             switch (answer)
             {
                 case "1": Start();break;
@@ -130,7 +128,6 @@ public class Main {
         log.info("Are you going to work with file or console");
         log.info("1: File");
         log.info("2: Console");
-
             String answer = input.nextLine();
             switch (answer)
             {
@@ -138,49 +135,18 @@ public class Main {
                 case "2": WorkWithConsole(); break;
                 default: log.info("uncorrected"); Start();
             }
-            saveSession();
+         FileWorker.saveSession();
     }
 
-    private static void saveSession() throws IOException {
-
-            writeDownAllResults();
-    }
-
-    private static void writeDownAllResults() throws IOException {
-        var fileName = "src/main/resources/Result.txt";
-        File toFile = new File(fileName);
-        List<String> lines = getSessionResolt(fileName);
-        lines.addAll(getSessionResolt("src/main/resources/Count of unique words.txt"));
-        lines.add("\n");
-        lines.addAll(getSessionResolt("src/main/resources/File with up-case letters.txt"));
-        lines.add("\n");
-        lines.addAll(getSessionResolt("src/main/resources/File with information about count of matches.txt"));
-        lines.add("\n");
-        lines.add("===============");
-
-
-        FileUtils.writeLines(toFile, lines);
-    }
-
-    private static List<String> getSessionResolt(String fileRef) throws IOException {
-
-        File fromFile = new File(fileRef);
-
-            List<String> lines = FileUtils.readLines(fromFile, StandardCharsets.UTF_8);
-            return lines;
-    }
 
     private static void WorkWithConsole() throws MyCustomeException, IOException {
         log.info("Enter your text");
-
-        Scanner in = new Scanner(System.in);
-        String text = in.nextLine();
+        String text = input.nextLine();
         String fileName = "file";
         String fileFormat = ".txt";
         readFromConsoleForUniqueWords(text, fileFormat);
         readFromConsoleForLetters(text, fileFormat);
         readFromConsoleForSearchingTheMatches(fileFormat, text);
-
     }
 
     private static void readFromConsoleForSearchingTheMatches(String fileFormat, String text) throws MyCustomeException, IOException {
