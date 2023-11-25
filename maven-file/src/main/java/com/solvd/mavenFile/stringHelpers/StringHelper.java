@@ -47,27 +47,8 @@ public class StringHelper
             for (var chr:charArray) {
                 collection.add(chr);
             }
-
         }
         return collection;
-    }
-
-    public static StringContainer enterIntoContainer(String[] dictionary)
-    {
-        StringContainer container = new StringContainer();
-        for (var element:dictionary) {
-            container.add(element);
-        }
-        return container;
-
-    }
-    public static StringContainer enterIntoContainer(ArrayList<Character> dictionary)
-    {
-        StringContainer container = new StringContainer();
-        for (var element:dictionary) {
-            container.add(element.toString());
-        }
-        return container;
     }
     public static void writeInFile(String fileName, String fileFormat, String text)
     {
@@ -157,7 +138,7 @@ public class StringHelper
        return list;
    }
 
-    public static String[] HW_28_11_1(String str)
+    public static String[] saveLetters(String str)
     {
         var dictionary = StringHelper.devineByLetters(str);
         String[] answer = new String[]{"default text is " + str +"\n", "Current text is ", ""};
@@ -169,10 +150,8 @@ public class StringHelper
 
     }
 
-    public static String[] HW_28_11_0(String str)
-    {
+    public static String[] saveUniqueWords(String str) throws IOException {
         int uniqueWordCounter = 0;
-        boolean isSpotted;
 
         var dictionary = StringHelper.devineByWords(str);
         var joinedDictionary = StringUtils.join(dictionary, " ");
@@ -203,10 +182,12 @@ public class StringHelper
             result[1] += "[ " + element1.word() + " ] ";
         }
          result[2] += " Text has " + (uniqueWordCounter + container.dictionary().size()) + " unique word";
+        StringHelper.writeInFile("Count of unique words", ".txt", result);
         return result;
+
     }
 
-    public static String[] HW_28_11_2(String[] dictionary, String word)
+    public static String[] saveMatches(String[] dictionary, String word)
     {
         String[] answer = new String[]{"default text is " + StringUtils.join(dictionary, " "),
                 " Searchable word is " + word, "Matches count is "};
@@ -224,16 +205,7 @@ public class StringHelper
     public static boolean CheckSpace(String str){
     return  StringAnalyzer.CheckSpace(str);
     }
-    public static ArrayList<Character> toCharacterListFromString(String str)
-    {
-        ArrayList<Character> characters = new ArrayList<>();
-        var array = str.toCharArray();
-        for (var element:array)
-        {
-            characters.add(element);
-        }
-        return characters;
-    }
+
 
     public static boolean CheckCymbols(String str)
     {
@@ -245,7 +217,13 @@ public class StringHelper
         return StringAnalyzer.CheckFigure(str);
     }
 
-
-    public static void writeInFile(String fileName, String s, ArrayList<Character> file1) {
+    public static ArrayList<Character> ConvertFromStringToCharArrayList(String text)
+    {
+        ArrayList<Character> list= new ArrayList<>();
+        var array = text.toCharArray();
+        for (var element:array) {
+            list.add(element);
+        }
+        return list;
     }
 }

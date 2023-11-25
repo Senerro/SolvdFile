@@ -1473,3 +1473,983 @@
 [INFO ] 2023-11-24 20:02:26.666 [main] Main - Are you going to do smth or quit?
 [INFO ] 2023-11-24 20:02:26.667 [main] Main - [1] continue
 [INFO ] 2023-11-24 20:02:26.667 [main] Main - [2] quit]
+[INFO ] 2023-11-25 12:57:04.710 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 12:57:04.717 [main] Main - [1] continue
+[INFO ] 2023-11-25 12:57:04.718 [main] Main - [2] quit]
+[INFO ] 2023-11-25 12:57:08.254 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 12:57:08.255 [main] Main - 1: File
+[INFO ] 2023-11-25 12:57:08.257 [main] Main - 2: Console
+[INFO ] 2023-11-25 12:57:09.616 [main] Main - Enter your text
+[INFO ] 2023-11-25 12:57:18.410 [main] Main - default text is What do you do
+[INFO ] 2023-11-25 12:57:18.411 [main] Main - [ What ][ you ][ do ] 
+[INFO ] 2023-11-25 12:57:18.412 [main] Main -  Text has 3 unique word
+[INFO ] 2023-11-25 12:57:18.438 [main] Main - default text is What do you do
+
+[INFO ] 2023-11-25 12:57:18.439 [main] Main - Current text is W H A T D O Y O U D O
+[INFO ] 2023-11-25 12:57:18.439 [main] Main - Count of letters at whole is 11
+[INFO ] 2023-11-25 12:57:18.440 [main] Main - Enter your word
+[DEBUG] 2023-11-25 12:58:54.884 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 12:58:54.900 [main] Main - default text is What do you do
+[INFO ] 2023-11-25 12:58:54.901 [main] Main -  Searchable word is dO
+[INFO ] 2023-11-25 12:58:54.902 [main] Main - Matches count is 2
+[DEBUG] 2023-11-25 12:58:54.911 [main] Main - result file was written
+[INFO ] 2023-11-25 12:58:54.940 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 12:58:54.941 [main] Main - [1] continue
+[INFO ] 2023-11-25 12:58:54.941 [main] Main - [2] quit]
+[INFO ] 2023-11-25 12:58:59.634 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 12:58:59.635 [main] Main - 1: File
+[INFO ] 2023-11-25 12:58:59.635 [main] Main - 2: Console
+[INFO ] 2023-11-25 12:59:02.296 [main] Main - Enter your text
+[INFO ] 2023-11-25 12:59:07.059 [main] Main - default text is Another text
+[INFO ] 2023-11-25 12:59:07.059 [main] Main - [ Another ][ text ]
+[INFO ] 2023-11-25 12:59:07.060 [main] Main -  Text has 2 unique word
+[INFO ] 2023-11-25 12:59:07.061 [main] Main - default text is Another text
+
+[INFO ] 2023-11-25 12:59:07.062 [main] Main - Current text is A N O T H E R T E X T
+[INFO ] 2023-11-25 12:59:07.063 [main] Main - Count of letters at whole is 11
+[INFO ] 2023-11-25 12:59:07.063 [main] Main - Enter your word
+[DEBUG] 2023-11-25 12:59:12.822 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 12:59:12.824 [main] Main - default text is Another text
+[INFO ] 2023-11-25 12:59:12.824 [main] Main -  Searchable word is texT
+[INFO ] 2023-11-25 12:59:12.825 [main] Main - Matches count is 1
+[DEBUG] 2023-11-25 12:59:12.835 [main] Main - result file was written
+[INFO ] 2023-11-25 12:59:12.859 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 12:59:12.860 [main] Main - [1] continue
+[INFO ] 2023-11-25 12:59:12.860 [main] Main - [2] quit]
+[INFO ] 2023-11-25 13:01:24.818 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 13:01:24.824 [main] Main - [1] continue
+[INFO ] 2023-11-25 13:01:24.825 [main] Main - [2] quit]
+[INFO ] 2023-11-25 13:01:28.071 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 13:01:28.072 [main] Main - 1: File
+[INFO ] 2023-11-25 13:01:28.072 [main] Main - 2: Console
+[INFO ] 2023-11-25 13:01:29.179 [main] Main - Enter your text
+[INFO ] 2023-11-25 13:01:39.222 [main] Main - default text is What do you Do 
+[INFO ] 2023-11-25 13:01:39.223 [main] Main - [ What ][ you ][ do ] 
+[INFO ] 2023-11-25 13:01:39.223 [main] Main -  Text has 3 unique word
+[INFO ] 2023-11-25 13:01:39.226 [main] Main - default text is What do you Do 
+
+[INFO ] 2023-11-25 13:01:39.227 [main] Main - Current text is W H A T D O Y O U D O
+[INFO ] 2023-11-25 13:01:39.227 [main] Main - Count of letters at whole is 11
+[INFO ] 2023-11-25 13:01:39.228 [main] Main - Enter your word
+[DEBUG] 2023-11-25 13:02:23.608 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 13:02:23.616 [main] Main - default text is What do you Do
+[INFO ] 2023-11-25 13:02:23.617 [main] Main -  Searchable word is do
+[INFO ] 2023-11-25 13:02:23.618 [main] Main - Matches count is 2
+[DEBUG] 2023-11-25 13:02:23.620 [main] Main - result file was written
+[INFO ] 2023-11-25 13:02:23.641 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 13:02:23.641 [main] Main - [1] continue
+[INFO ] 2023-11-25 13:02:23.642 [main] Main - [2] quit]
+[INFO ] 2023-11-25 13:03:19.914 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 13:03:19.920 [main] Main - [1] continue
+[INFO ] 2023-11-25 13:03:19.921 [main] Main - [2] quit]
+[INFO ] 2023-11-25 13:03:47.694 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 13:03:47.699 [main] Main - [1] continue
+[INFO ] 2023-11-25 13:03:47.700 [main] Main - [2] quit]
+[INFO ] 2023-11-25 13:03:49.520 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 13:03:49.521 [main] Main - 1: File
+[INFO ] 2023-11-25 13:03:49.522 [main] Main - 2: Console
+[INFO ] 2023-11-25 13:03:50.344 [main] Main - Enter your text
+[INFO ] 2023-11-25 13:03:56.886 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 13:03:56.891 [main] Main - [1] continue
+[INFO ] 2023-11-25 13:03:56.892 [main] Main - [2] quit]
+[INFO ] 2023-11-25 13:03:58.429 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 13:03:58.430 [main] Main - 1: File
+[INFO ] 2023-11-25 13:03:58.431 [main] Main - 2: Console
+[INFO ] 2023-11-25 13:04:07.232 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 13:04:07.240 [main] Main - [1] continue
+[INFO ] 2023-11-25 13:04:07.241 [main] Main - [2] quit]
+[INFO ] 2023-11-25 13:04:09.167 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 13:04:09.168 [main] Main - 1: File
+[INFO ] 2023-11-25 13:04:09.169 [main] Main - 2: Console
+[INFO ] 2023-11-25 13:04:10.550 [main] Main - Enter your text
+[INFO ] 2023-11-25 13:04:16.618 [main] Main - default text is What do you do?
+[INFO ] 2023-11-25 13:04:16.618 [main] Main - [ What ][ do ][ you ][ do? ]
+[INFO ] 2023-11-25 13:04:16.619 [main] Main -  Text has 4 unique word
+[INFO ] 2023-11-25 13:04:16.621 [main] Main - default text is What do you do?
+
+[INFO ] 2023-11-25 13:04:16.621 [main] Main - Current text is W H A T D O Y O U D O ?
+[INFO ] 2023-11-25 13:04:16.622 [main] Main - Count of letters at whole is 12
+[INFO ] 2023-11-25 13:04:16.622 [main] Main - Enter your word
+[INFO ] 2023-11-25 13:22:38.839 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 13:22:38.844 [main] Main - [1] continue
+[INFO ] 2023-11-25 13:22:38.845 [main] Main - [2] quit]
+[INFO ] 2023-11-25 13:22:52.710 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 13:22:52.710 [main] Main - 1: File
+[INFO ] 2023-11-25 13:22:52.711 [main] Main - 2: Console
+[INFO ] 2023-11-25 13:22:55.433 [main] Main - Enter your text
+[INFO ] 2023-11-25 13:22:57.280 [main] Main - default text is dfdfdf
+[INFO ] 2023-11-25 13:22:57.281 [main] Main - [ dfdfdf ]
+[INFO ] 2023-11-25 13:22:57.281 [main] Main -  Text has 1 unique word
+[INFO ] 2023-11-25 13:22:57.283 [main] Main - default text is dfdfdf
+
+[INFO ] 2023-11-25 13:22:57.283 [main] Main - Current text is D F D F D F
+[INFO ] 2023-11-25 13:22:57.283 [main] Main - Count of letters at whole is 6
+[INFO ] 2023-11-25 13:22:57.283 [main] Main - Enter your word
+[DEBUG] 2023-11-25 13:22:58.944 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 13:22:58.948 [main] Main - default text is dfdfdf
+[INFO ] 2023-11-25 13:22:58.949 [main] Main -  Searchable word is ds
+[INFO ] 2023-11-25 13:22:58.949 [main] Main - Matches count is 0
+[INFO ] 2023-11-25 13:22:58.970 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 13:22:58.970 [main] Main - [1] continue
+[INFO ] 2023-11-25 13:22:58.971 [main] Main - [2] quit]
+[INFO ] 2023-11-25 13:23:01.651 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 13:23:01.652 [main] Main - 1: File
+[INFO ] 2023-11-25 13:23:01.652 [main] Main - 2: Console
+[INFO ] 2023-11-25 13:23:03.642 [main] Main - Enter your text
+[INFO ] 2023-11-25 13:23:06.591 [main] Main - default text is sdfgsdfgsdg
+[INFO ] 2023-11-25 13:23:06.592 [main] Main - [ sdfgsdfgsdg ]
+[INFO ] 2023-11-25 13:23:06.592 [main] Main -  Text has 1 unique word
+[INFO ] 2023-11-25 13:23:06.596 [main] Main - default text is sdfgsdfgsdg
+
+[INFO ] 2023-11-25 13:23:06.597 [main] Main - Current text is S D F G S D F G S D G
+[INFO ] 2023-11-25 13:23:06.598 [main] Main - Count of letters at whole is 11
+[INFO ] 2023-11-25 13:23:06.599 [main] Main - Enter your word
+[DEBUG] 2023-11-25 13:23:08.082 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 13:23:08.085 [main] Main - default text is sdfgsdfgsdg
+[INFO ] 2023-11-25 13:23:08.086 [main] Main -  Searchable word is fgfg
+[INFO ] 2023-11-25 13:23:08.086 [main] Main - Matches count is 0
+[INFO ] 2023-11-25 13:23:08.104 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 13:23:08.105 [main] Main - [1] continue
+[INFO ] 2023-11-25 13:23:08.105 [main] Main - [2] quit]
+[INFO ] 2023-11-25 13:24:10.437 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 13:24:10.445 [main] Main - [1] continue
+[INFO ] 2023-11-25 13:24:10.445 [main] Main - [2] quit]
+[INFO ] 2023-11-25 13:24:29.940 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 13:24:29.940 [main] Main - 1: File
+[INFO ] 2023-11-25 13:24:29.941 [main] Main - 2: Console
+[INFO ] 2023-11-25 13:24:31.061 [main] Main - Enter your text
+[INFO ] 2023-11-25 13:24:32.993 [main] Main - default text is dfdfdfdfdf
+[INFO ] 2023-11-25 13:24:32.993 [main] Main - [ dfdfdfdfdf ]
+[INFO ] 2023-11-25 13:24:32.993 [main] Main -  Text has 1 unique word
+[INFO ] 2023-11-25 13:24:32.996 [main] Main - default text is dfdfdfdfdf
+
+[INFO ] 2023-11-25 13:24:32.996 [main] Main - Current text is D F D F D F D F D F
+[INFO ] 2023-11-25 13:24:32.996 [main] Main - Count of letters at whole is 10
+[INFO ] 2023-11-25 13:24:32.996 [main] Main - Enter your word
+[DEBUG] 2023-11-25 13:24:34.166 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 13:24:34.171 [main] Main - default text is dfdfdfdfdf
+[INFO ] 2023-11-25 13:24:34.172 [main] Main -  Searchable word is df
+[INFO ] 2023-11-25 13:24:34.173 [main] Main - Matches count is 0
+[DEBUG] 2023-11-25 13:24:34.179 [main] Main - result file was written
+[INFO ] 2023-11-25 13:24:34.205 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 13:24:34.205 [main] Main - [1] continue
+[INFO ] 2023-11-25 13:24:34.206 [main] Main - [2] quit]
+[INFO ] 2023-11-25 13:24:39.177 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 13:24:39.178 [main] Main - 1: File
+[INFO ] 2023-11-25 13:24:39.179 [main] Main - 2: Console
+[INFO ] 2023-11-25 13:25:13.918 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 13:25:13.925 [main] Main - [1] continue
+[INFO ] 2023-11-25 13:25:13.925 [main] Main - [2] quit]
+[INFO ] 2023-11-25 13:25:18.174 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 13:25:18.174 [main] Main - 1: File
+[INFO ] 2023-11-25 13:25:18.175 [main] Main - 2: Console
+[INFO ] 2023-11-25 13:25:19.903 [main] Main - Enter your text
+[INFO ] 2023-11-25 13:25:23.212 [main] Main - default text is DFGDFG
+[INFO ] 2023-11-25 13:25:23.213 [main] Main - [ DFGDFG ]
+[INFO ] 2023-11-25 13:25:23.213 [main] Main -  Text has 1 unique word
+[INFO ] 2023-11-25 13:25:23.214 [main] Main - default text is DFGDFG
+
+[INFO ] 2023-11-25 13:25:23.215 [main] Main - Current text is D F G D F G
+[INFO ] 2023-11-25 13:25:23.215 [main] Main - Count of letters at whole is 6
+[INFO ] 2023-11-25 13:25:23.215 [main] Main - Enter your word
+[DEBUG] 2023-11-25 13:25:25.464 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 13:25:25.469 [main] Main - default text is DFGDFG
+[INFO ] 2023-11-25 13:25:25.469 [main] Main -  Searchable word is fg
+[INFO ] 2023-11-25 13:25:25.470 [main] Main - Matches count is 0
+[DEBUG] 2023-11-25 13:25:25.474 [main] Main - result file was written
+[INFO ] 2023-11-25 13:25:25.494 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 13:25:25.495 [main] Main - [1] continue
+[INFO ] 2023-11-25 13:25:25.495 [main] Main - [2] quit]
+[INFO ] 2023-11-25 13:25:27.642 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 13:25:27.643 [main] Main - 1: File
+[INFO ] 2023-11-25 13:25:27.643 [main] Main - 2: Console
+[INFO ] 2023-11-25 13:25:29.025 [main] Main - Enter your text
+[INFO ] 2023-11-25 13:25:33.403 [main] Main - default text is hjkl iuyui
+[INFO ] 2023-11-25 13:25:33.403 [main] Main - [ hjkl ][ iuyui ]
+[INFO ] 2023-11-25 13:25:33.404 [main] Main -  Text has 2 unique word
+[INFO ] 2023-11-25 13:25:33.406 [main] Main - default text is hjkl iuyui
+
+[INFO ] 2023-11-25 13:25:33.406 [main] Main - Current text is H J K L I U Y U I
+[INFO ] 2023-11-25 13:25:33.406 [main] Main - Count of letters at whole is 9
+[INFO ] 2023-11-25 13:25:33.407 [main] Main - Enter your word
+[DEBUG] 2023-11-25 13:25:35.114 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 13:25:35.116 [main] Main - default text is hjkl iuyui
+[INFO ] 2023-11-25 13:25:35.116 [main] Main -  Searchable word is gh
+[INFO ] 2023-11-25 13:25:35.116 [main] Main - Matches count is 0
+[INFO ] 2023-11-25 13:25:35.144 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 13:25:35.144 [main] Main - [1] continue
+[INFO ] 2023-11-25 13:25:35.144 [main] Main - [2] quit]
+[INFO ] 2023-11-25 13:26:52.421 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 13:26:52.430 [main] Main - [1] continue
+[INFO ] 2023-11-25 13:26:52.431 [main] Main - [2] quit]
+[INFO ] 2023-11-25 13:26:56.392 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 13:26:56.392 [main] Main - 1: File
+[INFO ] 2023-11-25 13:26:56.393 [main] Main - 2: Console
+[INFO ] 2023-11-25 13:26:57.835 [main] Main - Enter your text
+[INFO ] 2023-11-25 13:27:06.552 [main] Main - default text is Что-то осмысленное
+[INFO ] 2023-11-25 13:27:06.552 [main] Main - [ Что-то ][ осмысленное ]
+[INFO ] 2023-11-25 13:27:06.553 [main] Main -  Text has 2 unique word
+[INFO ] 2023-11-25 13:27:06.556 [main] Main - default text is Что-то осмысленное
+
+[INFO ] 2023-11-25 13:27:06.556 [main] Main - Current text is Ч Т О - Т О О С М Ы С Л Е Н Н О Е
+[INFO ] 2023-11-25 13:27:06.557 [main] Main - Count of letters at whole is 17
+[INFO ] 2023-11-25 13:27:06.557 [main] Main - Enter your word
+[DEBUG] 2023-11-25 13:27:09.728 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 13:27:09.731 [main] Main - You entered 1 or more special characters
+[INFO ] 2023-11-25 13:27:09.731 [main] Main - Enter your word
+[DEBUG] 2023-11-25 13:27:24.710 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 13:27:24.714 [main] Main - default text is Что-то осмысленное
+[INFO ] 2023-11-25 13:27:24.714 [main] Main -  Searchable word is что-то
+[INFO ] 2023-11-25 13:27:24.714 [main] Main - Matches count is 1
+[INFO ] 2023-11-25 13:27:24.740 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 13:27:24.740 [main] Main - [1] continue
+[INFO ] 2023-11-25 13:27:24.740 [main] Main - [2] quit]
+[INFO ] 2023-11-25 13:35:19.483 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 13:35:19.488 [main] Main - [1] continue
+[INFO ] 2023-11-25 13:35:19.489 [main] Main - [2] quit]
+[INFO ] 2023-11-25 13:35:25.803 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 13:35:25.803 [main] Main - 1: File
+[INFO ] 2023-11-25 13:35:25.804 [main] Main - 2: Console
+[INFO ] 2023-11-25 13:35:26.839 [main] Main - default text is Some text and other something interesting some
+[INFO ] 2023-11-25 13:35:26.840 [main] Main - [ text ][ and ][ other ][ something ][ interesting ][ some ] 
+[INFO ] 2023-11-25 13:35:26.840 [main] Main -  Text has 6 unique word
+[INFO ] 2023-11-25 13:35:26.845 [main] Main - default text is Some text and other something interesting some
+
+[INFO ] 2023-11-25 13:35:26.846 [main] Main - Current text is S O M E T E X T A N D O T H E R S O M E T H I N G I N T E R E S T I N G S O M E
+[INFO ] 2023-11-25 13:35:26.846 [main] Main - Count of letters at whole is 40
+[INFO ] 2023-11-25 13:35:26.848 [main] Main - Enter your word
+[DEBUG] 2023-11-25 13:35:47.724 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 13:35:47.729 [main] Main - default text is Some text and other something interesting some
+[INFO ] 2023-11-25 13:35:47.730 [main] Main -  Searchable word is ome
+[INFO ] 2023-11-25 13:35:47.731 [main] Main - Matches count is 0
+[INFO ] 2023-11-25 13:35:47.753 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 13:35:47.754 [main] Main - [1] continue
+[INFO ] 2023-11-25 13:35:47.754 [main] Main - [2] quit]
+[INFO ] 2023-11-25 13:35:50.622 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 13:35:50.623 [main] Main - 1: File
+[INFO ] 2023-11-25 13:35:50.623 [main] Main - 2: Console
+[INFO ] 2023-11-25 13:36:02.324 [main] Main - Enter your text
+[INFO ] 2023-11-25 13:36:24.115 [main] Main - default text is some not А теперь порусски
+[INFO ] 2023-11-25 13:36:24.115 [main] Main - [ some ][ not ][ теперь ][ порусски ]
+[INFO ] 2023-11-25 13:36:24.116 [main] Main -  Text has 4 unique word
+[INFO ] 2023-11-25 13:36:24.118 [main] Main - default text is some not А теперь порусски
+
+[INFO ] 2023-11-25 13:36:24.118 [main] Main - Current text is S O M E N O T А Т Е П Е Р Ь П О Р У С С К И
+[INFO ] 2023-11-25 13:36:24.118 [main] Main - Count of letters at whole is 22
+[INFO ] 2023-11-25 13:36:24.119 [main] Main - Enter your word
+[DEBUG] 2023-11-25 13:36:30.304 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 13:36:30.306 [main] Main - default text is some not А теперь порусски
+[INFO ] 2023-11-25 13:36:30.306 [main] Main -  Searchable word is теперь
+[INFO ] 2023-11-25 13:36:30.307 [main] Main - Matches count is 1
+[INFO ] 2023-11-25 13:36:30.331 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 13:36:30.332 [main] Main - [1] continue
+[INFO ] 2023-11-25 13:36:30.332 [main] Main - [2] quit]
+[INFO ] 2023-11-25 13:37:28.517 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 13:37:28.522 [main] Main - [1] continue
+[INFO ] 2023-11-25 13:37:28.523 [main] Main - [2] quit]
+[INFO ] 2023-11-25 13:37:30.050 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 13:37:30.050 [main] Main - 1: File
+[INFO ] 2023-11-25 13:37:30.051 [main] Main - 2: Console
+[INFO ] 2023-11-25 13:37:30.953 [main] Main - default text is Some text and other something interesting some
+[INFO ] 2023-11-25 13:37:30.953 [main] Main - [ text ][ and ][ other ][ something ][ interesting ][ some ] 
+[INFO ] 2023-11-25 13:37:30.954 [main] Main -  Text has 6 unique word
+[INFO ] 2023-11-25 13:37:30.958 [main] Main - default text is Some text and other something interesting some
+
+[INFO ] 2023-11-25 13:37:30.959 [main] Main - Current text is S O M E T E X T A N D O T H E R S O M E T H I N G I N T E R E S T I N G S O M E
+[INFO ] 2023-11-25 13:37:30.959 [main] Main - Count of letters at whole is 40
+[INFO ] 2023-11-25 13:37:30.962 [main] Main - Enter your word
+[DEBUG] 2023-11-25 13:37:39.968 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 13:37:39.973 [main] Main - default text is Some text and other something interesting some
+[INFO ] 2023-11-25 13:37:39.974 [main] Main -  Searchable word is some
+[INFO ] 2023-11-25 13:37:39.975 [main] Main - Matches count is 2
+[INFO ] 2023-11-25 13:37:39.990 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 13:37:39.991 [main] Main - [1] continue
+[INFO ] 2023-11-25 13:37:39.991 [main] Main - [2] quit]
+[INFO ] 2023-11-25 13:47:30.259 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 13:47:30.264 [main] Main - [1] continue
+[INFO ] 2023-11-25 13:47:30.265 [main] Main - [2] quit]
+[INFO ] 2023-11-25 13:47:58.377 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 13:47:58.383 [main] Main - [1] continue
+[INFO ] 2023-11-25 13:47:58.383 [main] Main - [2] quit]
+[INFO ] 2023-11-25 13:47:59.435 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 13:47:59.436 [main] Main - 1: File
+[INFO ] 2023-11-25 13:47:59.437 [main] Main - 2: Console
+[INFO ] 2023-11-25 13:47:59.438 [main] Main - uncorrect
+[INFO ] 2023-11-25 13:47:59.439 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 13:47:59.439 [main] Main - 1: File
+[INFO ] 2023-11-25 13:47:59.440 [main] Main - 2: Console
+[INFO ] 2023-11-25 13:48:10.920 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 13:48:10.925 [main] Main - [1] continue
+[INFO ] 2023-11-25 13:48:10.926 [main] Main - [2] quit]
+[INFO ] 2023-11-25 13:49:23.584 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 13:49:23.591 [main] Main - [1] continue
+[INFO ] 2023-11-25 13:49:23.591 [main] Main - [2] quit]
+[INFO ] 2023-11-25 13:49:27.450 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 13:49:27.450 [main] Main - [1] continue
+[INFO ] 2023-11-25 13:49:27.451 [main] Main - [2] quit]
+[INFO ] 2023-11-25 13:49:29.872 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 13:49:29.872 [main] Main - [1] continue
+[INFO ] 2023-11-25 13:49:29.872 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:05:01.451 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:05:01.457 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:05:01.459 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:05:04.482 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:05:04.483 [main] Main - 1: File
+[INFO ] 2023-11-25 14:05:04.483 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:05:05.493 [main] Main - Enter your text
+[INFO ] 2023-11-25 14:05:12.851 [main] Main - default text is What do you do
+[INFO ] 2023-11-25 14:05:12.851 [main] Main - [ What ][ you ][ do ] 
+[INFO ] 2023-11-25 14:05:12.852 [main] Main -  Text has 3 unique word
+[INFO ] 2023-11-25 14:05:12.853 [main] Main - default text is What do you do?
+
+[INFO ] 2023-11-25 14:05:12.854 [main] Main - Current text is W H A T D O Y O U D O ?
+[INFO ] 2023-11-25 14:05:12.854 [main] Main - Count of letters at whole is 12
+[INFO ] 2023-11-25 14:05:12.854 [main] Main - Enter your word
+[INFO ] 2023-11-25 14:11:07.840 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:11:07.844 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:11:07.845 [main] Main - [2] quit]
+[WARN ] 2023-11-25 14:11:14.442 [main] Main - Uncorerct unswer
+[INFO ] 2023-11-25 14:11:14.442 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:11:14.443 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:11:14.443 [main] Main - [2] quit]
+[WARN ] 2023-11-25 14:11:15.883 [main] Main - Uncorerct unswer
+[INFO ] 2023-11-25 14:11:15.883 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:11:15.883 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:11:15.883 [main] Main - [2] quit]
+[WARN ] 2023-11-25 14:11:17.189 [main] Main - Uncorerct unswer
+[INFO ] 2023-11-25 14:11:17.189 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:11:17.190 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:11:17.191 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:11:19.235 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:11:19.235 [main] Main - 1: File
+[INFO ] 2023-11-25 14:11:19.236 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:11:23.275 [main] Main - default text is Some text and other something interesting some
+[INFO ] 2023-11-25 14:11:23.275 [main] Main - [ text ][ and ][ other ][ something ][ interesting ][ some ] 
+[INFO ] 2023-11-25 14:11:23.275 [main] Main -  Text has 6 unique word
+[INFO ] 2023-11-25 14:11:23.281 [main] Main - default text is Some text and other something interesting some
+
+[INFO ] 2023-11-25 14:11:23.282 [main] Main - Current text is S O M E T E X T A N D O T H E R S O M E T H I N G I N T E R E S T I N G S O M E
+[INFO ] 2023-11-25 14:11:23.282 [main] Main - Count of letters at whole is 40
+[INFO ] 2023-11-25 14:11:23.284 [main] Main - Enter your word
+[DEBUG] 2023-11-25 14:11:29.217 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 14:11:29.220 [main] Main - default text is Some text and other something interesting some
+[INFO ] 2023-11-25 14:11:29.221 [main] Main -  Searchable word is SOME
+[INFO ] 2023-11-25 14:11:29.221 [main] Main - Matches count is 2
+[INFO ] 2023-11-25 14:11:29.233 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:11:29.233 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:11:29.233 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:11:36.441 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:11:36.441 [main] Main - 1: File
+[INFO ] 2023-11-25 14:11:36.442 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:11:37.562 [main] Main - Enter your text
+[INFO ] 2023-11-25 14:11:49.606 [main] Main - default text is Somebody know
+[INFO ] 2023-11-25 14:11:49.606 [main] Main - [ Somebody ][ know ]
+[INFO ] 2023-11-25 14:11:49.607 [main] Main -  Text has 2 unique word
+[INFO ] 2023-11-25 14:11:49.608 [main] Main - default text is Somebody know
+
+[INFO ] 2023-11-25 14:11:49.608 [main] Main - Current text is S O M E B O D Y K N O W
+[INFO ] 2023-11-25 14:11:49.609 [main] Main - Count of letters at whole is 12
+[INFO ] 2023-11-25 14:11:49.609 [main] Main - Enter your word
+[DEBUG] 2023-11-25 14:11:51.756 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 14:11:51.758 [main] Main - default text is Somebody know
+[INFO ] 2023-11-25 14:11:51.758 [main] Main -  Searchable word is some
+[INFO ] 2023-11-25 14:11:51.759 [main] Main - Matches count is 0
+[INFO ] 2023-11-25 14:11:51.779 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:11:51.779 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:11:51.779 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:14:19.257 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:14:19.261 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:14:19.263 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:14:22.120 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:14:22.121 [main] Main - 1: File
+[INFO ] 2023-11-25 14:14:22.122 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:14:23.084 [main] Main - default text is Some text and other something interesting some
+[INFO ] 2023-11-25 14:14:23.085 [main] Main - [ text ][ and ][ other ][ something ][ interesting ][ some ] 
+[INFO ] 2023-11-25 14:14:23.085 [main] Main -  Text has 6 unique word
+[INFO ] 2023-11-25 14:14:23.091 [main] Main - default text is Some text and other something interesting some
+
+[INFO ] 2023-11-25 14:14:23.091 [main] Main - Current text is S O M E T E X T A N D O T H E R S O M E T H I N G I N T E R E S T I N G S O M E
+[INFO ] 2023-11-25 14:14:23.092 [main] Main - Count of letters at whole is 40
+[INFO ] 2023-11-25 14:14:23.094 [main] Main - Enter your word
+[DEBUG] 2023-11-25 14:14:25.050 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 14:14:25.054 [main] Main - default text is Some text and other something interesting some
+[INFO ] 2023-11-25 14:14:25.055 [main] Main -  Searchable word is df
+[INFO ] 2023-11-25 14:14:25.055 [main] Main - Matches count is 0
+[INFO ] 2023-11-25 14:14:25.070 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:14:25.070 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:14:25.070 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:14:26.644 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:14:26.644 [main] Main - 1: File
+[INFO ] 2023-11-25 14:14:26.645 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:14:28.741 [main] Main - Enter your text
+[INFO ] 2023-11-25 14:14:31.211 [main] Main - default text is sssss
+[INFO ] 2023-11-25 14:14:31.211 [main] Main - [ sssss ]
+[INFO ] 2023-11-25 14:14:31.212 [main] Main -  Text has 1 unique word
+[INFO ] 2023-11-25 14:14:31.214 [main] Main - default text is sssss
+
+[INFO ] 2023-11-25 14:14:31.214 [main] Main - Current text is S S S S S
+[INFO ] 2023-11-25 14:14:31.215 [main] Main - Count of letters at whole is 5
+[INFO ] 2023-11-25 14:14:31.216 [main] Main - Enter your word
+[DEBUG] 2023-11-25 14:14:33.002 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 14:14:33.003 [main] Main - default text is sssss
+[INFO ] 2023-11-25 14:14:33.004 [main] Main -  Searchable word is ss
+[INFO ] 2023-11-25 14:14:33.004 [main] Main - Matches count is 0
+[INFO ] 2023-11-25 14:14:33.024 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:14:33.024 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:14:33.024 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:15:25.134 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:15:25.137 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:15:25.138 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:15:30.334 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:15:30.335 [main] Main - 1: File
+[INFO ] 2023-11-25 14:15:30.335 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:15:31.772 [main] Main - default text is Some text and other something interesting some
+[INFO ] 2023-11-25 14:15:31.772 [main] Main - [ text ][ and ][ other ][ something ][ interesting ][ some ] 
+[INFO ] 2023-11-25 14:15:31.772 [main] Main -  Text has 6 unique word
+[INFO ] 2023-11-25 14:15:31.778 [main] Main - default text is Some text and other something interesting some
+
+[INFO ] 2023-11-25 14:15:31.778 [main] Main - Current text is S O M E T E X T A N D O T H E R S O M E T H I N G I N T E R E S T I N G S O M E
+[INFO ] 2023-11-25 14:15:31.778 [main] Main - Count of letters at whole is 40
+[INFO ] 2023-11-25 14:15:31.780 [main] Main - Enter your word
+[DEBUG] 2023-11-25 14:15:33.623 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 14:15:33.626 [main] Main - default text is Some text and other something interesting some
+[INFO ] 2023-11-25 14:15:33.627 [main] Main -  Searchable word is sd
+[INFO ] 2023-11-25 14:15:33.627 [main] Main - Matches count is 0
+[INFO ] 2023-11-25 14:15:33.639 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:15:33.639 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:15:33.640 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:15:35.148 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:15:35.149 [main] Main - 1: File
+[INFO ] 2023-11-25 14:15:35.149 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:15:36.323 [main] Main - default text is Some text and other something interesting some
+[INFO ] 2023-11-25 14:15:36.324 [main] Main - [ text ][ and ][ other ][ something ][ interesting ][ some ] 
+[INFO ] 2023-11-25 14:15:36.324 [main] Main -  Text has 6 unique word
+[INFO ] 2023-11-25 14:15:36.327 [main] Main - default text is Some text and other something interesting some
+
+[INFO ] 2023-11-25 14:15:36.328 [main] Main - Current text is S O M E T E X T A N D O T H E R S O M E T H I N G I N T E R E S T I N G S O M E
+[INFO ] 2023-11-25 14:15:36.328 [main] Main - Count of letters at whole is 40
+[INFO ] 2023-11-25 14:15:36.330 [main] Main - Enter your word
+[DEBUG] 2023-11-25 14:15:39.865 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 14:15:39.867 [main] Main - default text is Some text and other something interesting some
+[INFO ] 2023-11-25 14:15:39.868 [main] Main -  Searchable word is sd
+[INFO ] 2023-11-25 14:15:39.868 [main] Main - Matches count is 0
+[INFO ] 2023-11-25 14:15:39.881 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:15:39.882 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:15:39.882 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:15:41.278 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:15:41.278 [main] Main - 1: File
+[INFO ] 2023-11-25 14:15:41.278 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:15:42.260 [main] Main - default text is Some text and other something interesting some
+[INFO ] 2023-11-25 14:15:42.260 [main] Main - [ text ][ and ][ other ][ something ][ interesting ][ some ] 
+[INFO ] 2023-11-25 14:15:42.260 [main] Main -  Text has 6 unique word
+[INFO ] 2023-11-25 14:15:42.264 [main] Main - default text is Some text and other something interesting some
+
+[INFO ] 2023-11-25 14:15:42.264 [main] Main - Current text is S O M E T E X T A N D O T H E R S O M E T H I N G I N T E R E S T I N G S O M E
+[INFO ] 2023-11-25 14:15:42.265 [main] Main - Count of letters at whole is 40
+[INFO ] 2023-11-25 14:15:42.266 [main] Main - Enter your word
+[DEBUG] 2023-11-25 14:15:44.860 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 14:15:44.862 [main] Main - default text is Some text and other something interesting some
+[INFO ] 2023-11-25 14:15:44.862 [main] Main -  Searchable word is sd
+[INFO ] 2023-11-25 14:15:44.862 [main] Main - Matches count is 0
+[INFO ] 2023-11-25 14:15:44.875 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:15:44.875 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:15:44.876 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:15:46.372 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:15:46.372 [main] Main - 1: File
+[INFO ] 2023-11-25 14:15:46.373 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:15:47.373 [main] Main - Enter your text
+[INFO ] 2023-11-25 14:15:49.559 [main] Main - default text is sdsdsd
+[INFO ] 2023-11-25 14:15:49.559 [main] Main - [ sdsdsd ]
+[INFO ] 2023-11-25 14:15:49.559 [main] Main -  Text has 1 unique word
+[INFO ] 2023-11-25 14:15:49.560 [main] Main - default text is sdsdsd
+
+[INFO ] 2023-11-25 14:15:49.560 [main] Main - Current text is S D S D S D
+[INFO ] 2023-11-25 14:15:49.560 [main] Main - Count of letters at whole is 6
+[INFO ] 2023-11-25 14:15:49.561 [main] Main - Enter your word
+[DEBUG] 2023-11-25 14:15:52.010 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 14:15:52.012 [main] Main - default text is sdsdsd
+[INFO ] 2023-11-25 14:15:52.013 [main] Main -  Searchable word is sd
+[INFO ] 2023-11-25 14:15:52.013 [main] Main - Matches count is 0
+[INFO ] 2023-11-25 14:15:52.033 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:15:52.033 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:15:52.033 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:18:13.097 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:18:13.102 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:18:13.102 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:19:19.422 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:19:19.426 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:19:19.427 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:19:25.357 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:19:25.358 [main] Main - 1: File
+[INFO ] 2023-11-25 14:19:25.358 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:19:26.379 [main] Main - Enter your text
+[INFO ] 2023-11-25 14:19:27.560 [main] Main - default text is sd
+[INFO ] 2023-11-25 14:19:27.561 [main] Main - [ sd ]
+[INFO ] 2023-11-25 14:19:27.561 [main] Main -  Text has 1 unique word
+[INFO ] 2023-11-25 14:19:27.562 [main] Main - default text is sd
+
+[INFO ] 2023-11-25 14:19:27.563 [main] Main - Current text is S D
+[INFO ] 2023-11-25 14:19:27.563 [main] Main - Count of letters at whole is 2
+[INFO ] 2023-11-25 14:19:27.564 [main] Main - Enter your word
+[DEBUG] 2023-11-25 14:19:29.006 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 14:19:29.010 [main] Main - default text is sd
+[INFO ] 2023-11-25 14:19:29.010 [main] Main -  Searchable word is sd
+[INFO ] 2023-11-25 14:19:29.011 [main] Main - Matches count is 1
+[INFO ] 2023-11-25 14:19:29.026 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:19:29.027 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:19:29.027 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:19:52.839 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:19:52.845 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:19:52.846 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:19:59.217 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:19:59.217 [main] Main - 1: File
+[INFO ] 2023-11-25 14:19:59.218 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:20:00.066 [main] Main - Enter your text
+[INFO ] 2023-11-25 14:20:01.918 [main] Main - default text is sdsd
+[INFO ] 2023-11-25 14:20:01.919 [main] Main - [ sdsd ]
+[INFO ] 2023-11-25 14:20:01.919 [main] Main -  Text has 1 unique word
+[INFO ] 2023-11-25 14:20:01.921 [main] Main - default text is sdsd
+
+[INFO ] 2023-11-25 14:20:01.921 [main] Main - Current text is S D S D
+[INFO ] 2023-11-25 14:20:01.921 [main] Main - Count of letters at whole is 4
+[INFO ] 2023-11-25 14:20:01.922 [main] Main - Enter your word
+[DEBUG] 2023-11-25 14:20:03.291 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 14:20:03.294 [main] Main - default text is sdsd
+[INFO ] 2023-11-25 14:20:03.295 [main] Main -  Searchable word is sd
+[INFO ] 2023-11-25 14:20:03.295 [main] Main - Matches count is 0
+[INFO ] 2023-11-25 14:20:03.312 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:20:03.312 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:20:03.313 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:20:26.513 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:20:26.519 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:20:26.520 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:20:28.865 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:20:28.866 [main] Main - 1: File
+[INFO ] 2023-11-25 14:20:28.866 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:22:42.476 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:22:42.481 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:22:42.482 [main] Main - [2] quit]
+[WARN ] 2023-11-25 14:22:54.120 [main] Main - Uncorerct unswer
+[INFO ] 2023-11-25 14:22:54.123 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:22:54.124 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:22:54.124 [main] Main - [2] quit]
+[WARN ] 2023-11-25 14:22:55.982 [main] Main - Uncorerct unswer
+[INFO ] 2023-11-25 14:22:55.986 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:22:55.986 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:22:55.987 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:23:00.081 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:23:00.082 [main] Main - 1: File
+[INFO ] 2023-11-25 14:23:00.082 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:23:01.600 [main] Main - Enter your text
+[INFO ] 2023-11-25 14:23:03.462 [main] Main - default text is sdsd
+[INFO ] 2023-11-25 14:23:03.462 [main] Main - [ sdsd ]
+[INFO ] 2023-11-25 14:23:03.462 [main] Main -  Text has 1 unique word
+[INFO ] 2023-11-25 14:23:03.465 [main] Main - default text is sdsd
+
+[INFO ] 2023-11-25 14:23:03.465 [main] Main - Current text is S D S D
+[INFO ] 2023-11-25 14:23:03.465 [main] Main - Count of letters at whole is 4
+[INFO ] 2023-11-25 14:23:03.465 [main] Main - Enter your word
+[DEBUG] 2023-11-25 14:23:04.743 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 14:23:04.747 [main] Main - default text is sdsd
+[INFO ] 2023-11-25 14:23:04.748 [main] Main -  Searchable word is sd
+[INFO ] 2023-11-25 14:23:04.748 [main] Main - Matches count is 0
+[INFO ] 2023-11-25 14:23:04.755 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:23:04.756 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:23:04.756 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:24:04.765 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:24:04.770 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:24:04.771 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:24:09.533 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:24:09.533 [main] Main - 1: File
+[INFO ] 2023-11-25 14:24:09.534 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:24:11.126 [main] Main - Enter your text
+[INFO ] 2023-11-25 14:24:12.264 [main] Main - default text is sdsd
+[INFO ] 2023-11-25 14:24:12.265 [main] Main - [ sdsd ]
+[INFO ] 2023-11-25 14:24:12.265 [main] Main -  Text has 1 unique word
+[INFO ] 2023-11-25 14:24:12.267 [main] Main - default text is sdsd
+
+[INFO ] 2023-11-25 14:24:12.268 [main] Main - Current text is S D S D
+[INFO ] 2023-11-25 14:24:12.268 [main] Main - Count of letters at whole is 4
+[INFO ] 2023-11-25 14:24:12.268 [main] Main - Enter your word
+[DEBUG] 2023-11-25 14:24:12.817 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 14:24:12.820 [main] Main - default text is sdsd
+[INFO ] 2023-11-25 14:24:12.821 [main] Main -  Searchable word is sd
+[INFO ] 2023-11-25 14:24:12.821 [main] Main - Matches count is 0
+[INFO ] 2023-11-25 14:24:12.829 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:24:12.829 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:24:12.830 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:24:41.436 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:24:41.442 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:24:41.442 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:24:48.386 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:24:48.387 [main] Main - 1: File
+[INFO ] 2023-11-25 14:24:48.387 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:24:55.219 [main] Main - Enter your text
+[INFO ] 2023-11-25 14:24:56.108 [main] Main - default text is sd
+[INFO ] 2023-11-25 14:24:56.109 [main] Main - [ sd ]
+[INFO ] 2023-11-25 14:24:56.109 [main] Main -  Text has 1 unique word
+[INFO ] 2023-11-25 14:24:56.111 [main] Main - default text is sd
+
+[INFO ] 2023-11-25 14:24:56.111 [main] Main - Current text is S D
+[INFO ] 2023-11-25 14:24:56.111 [main] Main - Count of letters at whole is 2
+[INFO ] 2023-11-25 14:24:56.111 [main] Main - Enter your word
+[DEBUG] 2023-11-25 14:24:56.796 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 14:24:56.799 [main] Main - default text is sd
+[INFO ] 2023-11-25 14:24:56.800 [main] Main -  Searchable word is sd
+[INFO ] 2023-11-25 14:24:56.800 [main] Main - Matches count is 1
+[INFO ] 2023-11-25 14:24:56.808 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:24:56.808 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:24:56.808 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:26:44.775 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:26:44.780 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:26:44.780 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:26:52.881 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:26:52.882 [main] Main - 1: File
+[INFO ] 2023-11-25 14:26:52.882 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:26:55.661 [main] Main - Enter your text
+[INFO ] 2023-11-25 14:26:56.825 [main] Main - default text is sdsd
+[INFO ] 2023-11-25 14:26:56.825 [main] Main - [ sdsd ]
+[INFO ] 2023-11-25 14:26:56.825 [main] Main -  Text has 1 unique word
+[INFO ] 2023-11-25 14:26:56.828 [main] Main - default text is sdsd
+
+[INFO ] 2023-11-25 14:26:56.828 [main] Main - Current text is S D S D
+[INFO ] 2023-11-25 14:26:56.828 [main] Main - Count of letters at whole is 4
+[INFO ] 2023-11-25 14:26:56.828 [main] Main - Enter your word
+[DEBUG] 2023-11-25 14:26:57.739 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 14:26:57.743 [main] Main - default text is sdsd
+[INFO ] 2023-11-25 14:26:57.743 [main] Main -  Searchable word is sd
+[INFO ] 2023-11-25 14:26:57.744 [main] Main - Matches count is 0
+[INFO ] 2023-11-25 14:26:57.752 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:26:57.752 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:26:57.752 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:27:57.360 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:27:57.365 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:27:57.366 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:28:01.168 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:28:01.169 [main] Main - 1: File
+[INFO ] 2023-11-25 14:28:01.169 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:28:02.826 [main] Main - Enter your text
+[INFO ] 2023-11-25 14:28:04.007 [main] Main - default text is sdsd
+[INFO ] 2023-11-25 14:28:04.007 [main] Main - [ sdsd ]
+[INFO ] 2023-11-25 14:28:04.007 [main] Main -  Text has 1 unique word
+[INFO ] 2023-11-25 14:28:04.010 [main] Main - default text is sdsd
+
+[INFO ] 2023-11-25 14:28:04.010 [main] Main - Current text is S D S D
+[INFO ] 2023-11-25 14:28:04.010 [main] Main - Count of letters at whole is 4
+[INFO ] 2023-11-25 14:28:04.010 [main] Main - Enter your word
+[DEBUG] 2023-11-25 14:28:04.685 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 14:28:04.689 [main] Main - default text is sdsd
+[INFO ] 2023-11-25 14:28:04.690 [main] Main -  Searchable word is sd
+[INFO ] 2023-11-25 14:28:04.690 [main] Main - Matches count is 0
+[INFO ] 2023-11-25 14:28:04.697 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:28:04.697 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:28:04.698 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:28:25.849 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:28:25.855 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:28:25.856 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:28:30.677 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:28:30.678 [main] Main - 1: File
+[INFO ] 2023-11-25 14:28:30.678 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:29:36.814 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:29:36.819 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:29:36.820 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:29:44.390 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:29:44.391 [main] Main - 1: File
+[INFO ] 2023-11-25 14:29:44.391 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:29:45.487 [main] Main - Enter your text
+[INFO ] 2023-11-25 14:29:46.730 [main] Main - default text is 2
+[INFO ] 2023-11-25 14:29:46.731 [main] Main - 
+[INFO ] 2023-11-25 14:29:46.731 [main] Main -  Text has 0 unique word
+[INFO ] 2023-11-25 14:29:46.732 [main] Main - default text is 2
+
+[INFO ] 2023-11-25 14:29:46.733 [main] Main - Current text is 2
+[INFO ] 2023-11-25 14:29:46.733 [main] Main - Count of letters at whole is 1
+[INFO ] 2023-11-25 14:29:46.733 [main] Main - Enter your word
+[DEBUG] 2023-11-25 14:29:48.562 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 14:29:48.567 [main] Main - default text is 2
+[INFO ] 2023-11-25 14:29:48.567 [main] Main -  Searchable word is dfdf
+[INFO ] 2023-11-25 14:29:48.567 [main] Main - Matches count is 0
+[INFO ] 2023-11-25 14:29:48.583 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:29:48.583 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:29:48.583 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:32:49.634 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:32:49.640 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:32:49.641 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:32:52.110 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:32:52.112 [main] Main - 1: File
+[INFO ] 2023-11-25 14:32:52.112 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:34:31.172 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:34:31.178 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:34:31.178 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:34:38.184 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:34:38.184 [main] Main - 1: File
+[INFO ] 2023-11-25 14:34:38.185 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:35:38.083 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:35:38.087 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:35:38.087 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:36:02.825 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:36:02.830 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:36:02.830 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:36:05.150 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:36:05.150 [main] Main - 1: File
+[INFO ] 2023-11-25 14:36:05.151 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:38:09.568 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:38:09.572 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:38:09.573 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:38:14.531 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:38:14.532 [main] Main - 1: File
+[INFO ] 2023-11-25 14:38:14.532 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:38:28.135 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:38:28.139 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:38:28.140 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:38:29.573 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:38:29.574 [main] Main - 1: File
+[INFO ] 2023-11-25 14:38:29.574 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:38:30.938 [main] Main - Enter your text
+[INFO ] 2023-11-25 14:38:32.563 [main] Main - default text is sdsd
+[INFO ] 2023-11-25 14:38:32.563 [main] Main - [ sdsd ]
+[INFO ] 2023-11-25 14:38:32.564 [main] Main -  Text has 1 unique word
+[INFO ] 2023-11-25 14:38:32.566 [main] Main - default text is sdsd
+
+[INFO ] 2023-11-25 14:38:32.566 [main] Main - Current text is S D S D
+[INFO ] 2023-11-25 14:38:32.566 [main] Main - Count of letters at whole is 4
+[INFO ] 2023-11-25 14:38:32.566 [main] Main - Enter your word
+[DEBUG] 2023-11-25 14:38:33.970 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 14:38:33.974 [main] Main - default text is sdsd
+[INFO ] 2023-11-25 14:38:33.974 [main] Main -  Searchable word is sdsd
+[INFO ] 2023-11-25 14:38:33.975 [main] Main - Matches count is 1
+[INFO ] 2023-11-25 14:38:33.986 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:38:33.987 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:38:33.987 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:39:14.279 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:39:14.283 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:39:14.284 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:39:17.003 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:39:17.003 [main] Main - 1: File
+[INFO ] 2023-11-25 14:39:17.004 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:39:18.880 [main] Main - Enter your text
+[INFO ] 2023-11-25 14:39:20.159 [main] Main - default text is sdsd
+[INFO ] 2023-11-25 14:39:20.159 [main] Main - [ sdsd ]
+[INFO ] 2023-11-25 14:39:20.159 [main] Main -  Text has 1 unique word
+[INFO ] 2023-11-25 14:39:20.160 [main] Main - default text is sdsd
+
+[INFO ] 2023-11-25 14:39:20.161 [main] Main - Current text is S D S D
+[INFO ] 2023-11-25 14:39:20.161 [main] Main - Count of letters at whole is 4
+[INFO ] 2023-11-25 14:39:20.161 [main] Main - Enter your word
+[DEBUG] 2023-11-25 14:39:21.147 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 14:39:21.151 [main] Main - default text is sdsd
+[INFO ] 2023-11-25 14:39:21.151 [main] Main -  Searchable word is sd
+[INFO ] 2023-11-25 14:39:21.151 [main] Main - Matches count is 0
+[INFO ] 2023-11-25 14:39:21.158 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:39:21.159 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:39:21.159 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:39:35.553 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:39:35.553 [main] Main - 1: File
+[INFO ] 2023-11-25 14:39:35.553 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:39:37.904 [main] Main - default text is Some text and other something interesting some
+[INFO ] 2023-11-25 14:39:37.904 [main] Main - [ text ][ and ][ other ][ something ][ interesting ][ some ] 
+[INFO ] 2023-11-25 14:39:37.905 [main] Main -  Text has 6 unique word
+[INFO ] 2023-11-25 14:39:37.910 [main] Main - default text is Some text and other something interesting some
+
+[INFO ] 2023-11-25 14:39:37.910 [main] Main - Current text is S O M E T E X T A N D O T H E R S O M E T H I N G I N T E R E S T I N G S O M E
+[INFO ] 2023-11-25 14:39:37.910 [main] Main - Count of letters at whole is 40
+[INFO ] 2023-11-25 14:39:37.913 [main] Main - Enter your word
+[DEBUG] 2023-11-25 14:39:39.483 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 14:39:39.485 [main] Main - default text is Some text and other something interesting some
+[INFO ] 2023-11-25 14:39:39.485 [main] Main -  Searchable word is sd
+[INFO ] 2023-11-25 14:39:39.485 [main] Main - Matches count is 0
+[INFO ] 2023-11-25 14:39:39.493 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:39:39.493 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:39:39.493 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:39:40.965 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:39:40.965 [main] Main - 1: File
+[INFO ] 2023-11-25 14:39:40.966 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:39:41.877 [main] Main - Enter your text
+[INFO ] 2023-11-25 14:39:43.625 [main] Main - default text is sdsd
+[INFO ] 2023-11-25 14:39:43.625 [main] Main - [ sdsd ]
+[INFO ] 2023-11-25 14:39:43.625 [main] Main -  Text has 1 unique word
+[INFO ] 2023-11-25 14:39:43.627 [main] Main - default text is sdsd
+
+[INFO ] 2023-11-25 14:39:43.627 [main] Main - Current text is S D S D
+[INFO ] 2023-11-25 14:39:43.627 [main] Main - Count of letters at whole is 4
+[INFO ] 2023-11-25 14:39:43.627 [main] Main - Enter your word
+[DEBUG] 2023-11-25 14:39:45.604 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 14:39:45.606 [main] Main - default text is sdsd
+[INFO ] 2023-11-25 14:39:45.607 [main] Main -  Searchable word is sd
+[INFO ] 2023-11-25 14:39:45.607 [main] Main - Matches count is 0
+[INFO ] 2023-11-25 14:39:45.621 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:39:45.621 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:39:45.623 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:42:09.165 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:42:09.170 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:42:09.171 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:42:10.766 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:42:10.767 [main] Main - 1: File
+[INFO ] 2023-11-25 14:42:10.767 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:42:11.754 [main] Main - Enter your text
+[INFO ] 2023-11-25 14:42:13.706 [main] Main - default text is ssdsdsd
+[INFO ] 2023-11-25 14:42:13.706 [main] Main - [ ssdsdsd ]
+[INFO ] 2023-11-25 14:42:13.706 [main] Main -  Text has 1 unique word
+[INFO ] 2023-11-25 14:42:13.708 [main] Main - default text is ssdsdsd
+
+[INFO ] 2023-11-25 14:42:13.708 [main] Main - Current text is S S D S D S D
+[INFO ] 2023-11-25 14:42:13.709 [main] Main - Count of letters at whole is 7
+[INFO ] 2023-11-25 14:42:13.709 [main] Main - Enter your word
+[DEBUG] 2023-11-25 14:42:15.578 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 14:42:15.583 [main] Main - default text is ssdsdsd
+[INFO ] 2023-11-25 14:42:15.583 [main] Main -  Searchable word is sd
+[INFO ] 2023-11-25 14:42:15.583 [main] Main - Matches count is 0
+[INFO ] 2023-11-25 14:42:15.602 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:42:15.602 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:42:15.603 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:42:24.172 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:42:24.172 [main] Main - 1: File
+[INFO ] 2023-11-25 14:42:24.172 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:42:25.771 [main] Main - Enter your text
+[INFO ] 2023-11-25 14:42:29.350 [main] Main - default text is Somesthytr
+[INFO ] 2023-11-25 14:42:29.350 [main] Main - [ Somesthytr ]
+[INFO ] 2023-11-25 14:42:29.350 [main] Main -  Text has 1 unique word
+[INFO ] 2023-11-25 14:42:29.351 [main] Main - default text is Somesthytr
+
+[INFO ] 2023-11-25 14:42:29.352 [main] Main - Current text is S O M E S T H Y T R
+[INFO ] 2023-11-25 14:42:29.352 [main] Main - Count of letters at whole is 10
+[INFO ] 2023-11-25 14:42:29.352 [main] Main - Enter your word
+[DEBUG] 2023-11-25 14:42:31.071 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 14:42:31.073 [main] Main - default text is Somesthytr
+[INFO ] 2023-11-25 14:42:31.073 [main] Main -  Searchable word is df
+[INFO ] 2023-11-25 14:42:31.073 [main] Main - Matches count is 0
+[INFO ] 2023-11-25 14:42:31.096 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:42:31.096 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:42:31.097 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:42:35.139 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:42:35.140 [main] Main - 1: File
+[INFO ] 2023-11-25 14:42:35.140 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:42:36.014 [main] Main - default text is Some text and other something interesting some
+[INFO ] 2023-11-25 14:42:36.014 [main] Main - [ text ][ and ][ other ][ something ][ interesting ][ some ] 
+[INFO ] 2023-11-25 14:42:36.015 [main] Main -  Text has 6 unique word
+[INFO ] 2023-11-25 14:42:36.020 [main] Main - default text is Some text and other something interesting some
+
+[INFO ] 2023-11-25 14:42:36.020 [main] Main - Current text is S O M E T E X T A N D O T H E R S O M E T H I N G I N T E R E S T I N G S O M E
+[INFO ] 2023-11-25 14:42:36.021 [main] Main - Count of letters at whole is 40
+[INFO ] 2023-11-25 14:42:36.022 [main] Main - Enter your word
+[DEBUG] 2023-11-25 14:42:37.575 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 14:42:37.576 [main] Main - default text is Some text and other something interesting some
+[INFO ] 2023-11-25 14:42:37.577 [main] Main -  Searchable word is sd
+[INFO ] 2023-11-25 14:42:37.577 [main] Main - Matches count is 0
+[INFO ] 2023-11-25 14:42:37.590 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:42:37.590 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:42:37.591 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:43:47.621 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:43:47.628 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:43:47.628 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:43:49.669 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:43:49.670 [main] Main - 1: File
+[INFO ] 2023-11-25 14:43:49.670 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:43:51.209 [main] Main - Enter your text
+[INFO ] 2023-11-25 14:43:53.287 [main] Main - default text is sdsdsdsd
+[INFO ] 2023-11-25 14:43:53.287 [main] Main - [ sdsdsdsd ]
+[INFO ] 2023-11-25 14:43:53.288 [main] Main -  Text has 1 unique word
+[INFO ] 2023-11-25 14:43:53.289 [main] Main - default text is sdsdsdsd
+
+[INFO ] 2023-11-25 14:43:53.290 [main] Main - Current text is S D S D S D S D
+[INFO ] 2023-11-25 14:43:53.290 [main] Main - Count of letters at whole is 8
+[INFO ] 2023-11-25 14:43:53.290 [main] Main - Enter your word
+[DEBUG] 2023-11-25 14:43:55.122 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 14:43:55.125 [main] Main - default text is sdsdsdsd
+[INFO ] 2023-11-25 14:43:55.126 [main] Main -  Searchable word is sdsd
+[INFO ] 2023-11-25 14:43:55.126 [main] Main - Matches count is 0
+[INFO ] 2023-11-25 14:43:55.143 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:43:55.143 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:43:55.143 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:46:25.803 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:46:25.807 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:46:25.808 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:46:28.626 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:46:28.627 [main] Main - 1: File
+[INFO ] 2023-11-25 14:46:28.627 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:46:30.248 [main] Main - Enter your text
+[INFO ] 2023-11-25 14:46:31.782 [main] Main - default text is sdsd
+[INFO ] 2023-11-25 14:46:31.782 [main] Main - [ sdsd ]
+[INFO ] 2023-11-25 14:46:31.783 [main] Main -  Text has 1 unique word
+[INFO ] 2023-11-25 14:46:31.784 [main] Main - default text is sdsd
+
+[INFO ] 2023-11-25 14:46:31.785 [main] Main - Current text is S D S D
+[INFO ] 2023-11-25 14:46:31.785 [main] Main - Count of letters at whole is 4
+[INFO ] 2023-11-25 14:46:31.785 [main] Main - Enter your word
+[DEBUG] 2023-11-25 14:46:33.081 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 14:46:33.085 [main] Main - default text is sdsd
+[INFO ] 2023-11-25 14:46:33.086 [main] Main -  Searchable word is sdsd
+[INFO ] 2023-11-25 14:46:33.086 [main] Main - Matches count is 1
+[INFO ] 2023-11-25 14:46:33.094 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:46:33.094 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:46:33.095 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:46:35.516 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:46:35.517 [main] Main - 1: File
+[INFO ] 2023-11-25 14:46:35.517 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:46:36.415 [main] Main - Enter your text
+[INFO ] 2023-11-25 14:46:41.242 [main] Main - default text is ERRTY rte
+[INFO ] 2023-11-25 14:46:41.242 [main] Main - [ ERRTY ][ rte ]
+[INFO ] 2023-11-25 14:46:41.242 [main] Main -  Text has 2 unique word
+[INFO ] 2023-11-25 14:46:41.244 [main] Main - default text is ERRTY rte
+
+[INFO ] 2023-11-25 14:46:41.244 [main] Main - Current text is E R R T Y R T E
+[INFO ] 2023-11-25 14:46:41.244 [main] Main - Count of letters at whole is 8
+[INFO ] 2023-11-25 14:46:41.244 [main] Main - Enter your word
+[DEBUG] 2023-11-25 14:46:43.348 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 14:46:43.349 [main] Main - default text is ERRTY rte
+[INFO ] 2023-11-25 14:46:43.350 [main] Main -  Searchable word is sd
+[INFO ] 2023-11-25 14:46:43.350 [main] Main - Matches count is 0
+[INFO ] 2023-11-25 14:46:43.366 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:46:43.367 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:46:43.367 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:46:45.770 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:46:45.771 [main] Main - 1: File
+[INFO ] 2023-11-25 14:46:45.771 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:46:46.728 [main] Main - default text is Some text and other something interesting some
+[INFO ] 2023-11-25 14:46:46.729 [main] Main - [ text ][ and ][ other ][ something ][ interesting ][ some ] 
+[INFO ] 2023-11-25 14:46:46.729 [main] Main -  Text has 6 unique word
+[INFO ] 2023-11-25 14:46:46.733 [main] Main - default text is Some text and other something interesting some
+
+[INFO ] 2023-11-25 14:46:46.734 [main] Main - Current text is S O M E T E X T A N D O T H E R S O M E T H I N G I N T E R E S T I N G S O M E
+[INFO ] 2023-11-25 14:46:46.734 [main] Main - Count of letters at whole is 40
+[INFO ] 2023-11-25 14:46:46.736 [main] Main - Enter your word
+[DEBUG] 2023-11-25 14:46:49.271 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 14:46:49.273 [main] Main - default text is Some text and other something interesting some
+[INFO ] 2023-11-25 14:46:49.274 [main] Main -  Searchable word is sd
+[INFO ] 2023-11-25 14:46:49.274 [main] Main - Matches count is 0
+[INFO ] 2023-11-25 14:46:49.286 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:46:49.286 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:46:49.286 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:48:16.159 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:48:16.164 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:48:16.165 [main] Main - [2] quit]
+[WARN ] 2023-11-25 14:48:19.601 [main] Main - Uncorerct unswer
+[INFO ] 2023-11-25 14:48:19.605 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:48:19.606 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:48:19.606 [main] Main - [2] quit]
+[INFO ] 2023-11-25 14:48:22.138 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:48:22.138 [main] Main - 1: File
+[INFO ] 2023-11-25 14:48:22.139 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:48:23.432 [main] Main - uncorrected
+[INFO ] 2023-11-25 14:48:23.433 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-25 14:48:23.433 [main] Main - 1: File
+[INFO ] 2023-11-25 14:48:23.434 [main] Main - 2: Console
+[INFO ] 2023-11-25 14:48:24.470 [main] Main - default text is Some text and other something interesting some
+[INFO ] 2023-11-25 14:48:24.470 [main] Main - [ text ][ and ][ other ][ something ][ interesting ][ some ] 
+[INFO ] 2023-11-25 14:48:24.470 [main] Main -  Text has 6 unique word
+[INFO ] 2023-11-25 14:48:24.475 [main] Main - default text is Some text and other something interesting some
+
+[INFO ] 2023-11-25 14:48:24.476 [main] Main - Current text is S O M E T E X T A N D O T H E R S O M E T H I N G I N T E R E S T I N G S O M E
+[INFO ] 2023-11-25 14:48:24.476 [main] Main - Count of letters at whole is 40
+[INFO ] 2023-11-25 14:48:24.478 [main] Main - Enter your word
+[DEBUG] 2023-11-25 14:48:25.742 [main] Main - answer is not numeric
+[INFO ] 2023-11-25 14:48:25.746 [main] Main - default text is Some text and other something interesting some
+[INFO ] 2023-11-25 14:48:25.746 [main] Main -  Searchable word is sdsd
+[INFO ] 2023-11-25 14:48:25.747 [main] Main - Matches count is 0
+[INFO ] 2023-11-25 14:48:25.767 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:48:25.768 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:48:25.768 [main] Main - [2] quit]
+[WARN ] 2023-11-25 14:48:29.458 [main] Main - Uncorerct unswer
+[INFO ] 2023-11-25 14:48:29.468 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-25 14:48:29.468 [main] Main - [1] continue
+[INFO ] 2023-11-25 14:48:29.468 [main] Main - [2] quit]

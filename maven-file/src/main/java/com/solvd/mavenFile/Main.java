@@ -11,24 +11,19 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
 
     public static Logger log = LogManager.getLogger(Main.class);
-
-    static Scanner input  = new Scanner(System.in);
+    static Scanner input = new Scanner(System.in);
 
     public static void readFromFileForUniqueWords(String fileName, String fileFormat, String fileText) throws IOException {
         StringHelper.writeInFile(fileName, fileFormat, fileText);
         var characterArrayList = StringHelper.readFile(fileName, fileFormat);
         var str = StringHelper.transformation(characterArrayList);
-        var resultText = StringHelper.HW_28_11_0(str);
-        StringHelper.writeInFile("Count of unique words", fileFormat, resultText);
+        var resultText = StringHelper.saveUniqueWords(str);
+
         for (var element:resultText) {
             log.info(element);
         }
@@ -39,7 +34,7 @@ public class Main {
             StringHelper.writeInFile(fileName, fileFormat, fileText);
             var charactersLetterList = StringHelper.readFile(fileName);
             var str = StringHelper.transformation(charactersLetterList);
-            var textResult = StringHelper.HW_28_11_1(str);
+            var textResult = StringHelper.saveLetters(str);
             StringHelper.writeInFile("File with up-case letters", fileFormat, textResult);
             for (var element:textResult) {
                 log.info(element);
@@ -53,7 +48,7 @@ public class Main {
             var str = StringHelper.transformation(charactersLetterList);
             var dictionary = StringHelper.devineByWords(str);
             var word = getWordFromConsole();
-            var textResult = StringHelper.HW_28_11_2(dictionary, word);
+            var textResult = StringHelper.saveMatches(dictionary, word);
             StringHelper.writeInFile("File with information about count of matches", fileFormat, textResult);
             for (var element:textResult) {
                 log.info(element);
@@ -64,9 +59,9 @@ public class Main {
 
         log.info("Enter your word");
         try {
-            BufferedReader rd = new BufferedReader(new InputStreamReader(System.in));
+         /*   BufferedReader rd = new BufferedReader(new InputStreamReader(System.in));*/
 
-            anwser = rd.readLine();
+            anwser = input.nextLine();
 
             try {
                 Integer.parseInt(anwser);
@@ -94,7 +89,7 @@ public class Main {
                 throw new MyCustomeException("You entered a text, not single world");
             }
         }
-        catch(MyCustomeException | IOException e)
+        catch(MyCustomeException e)
         {
           log.info(e.getMessage());
           getWordFromConsole();
@@ -105,53 +100,50 @@ public class Main {
 
     public static void main(String[] args) throws IOException, MyCustomeException {
 
+        String[] str = new String[]{"========="};
+        StringHelper.writeInFile("Result", ".txt", str);
+
+
         boolean isWorking = true;
         do {
             log.info("Are you going to do smth or quit?");
             log.info("[1] continue");
             log.info("[2] quit]");
-            int answer = input.nextInt();
+
+            String answer = input.nextLine();
+
 
             switch (answer)
             {
-                case 1: Start();break;
-                case 2: isWorking = false;
+                case "1": Start();break;
+                case "2": isWorking = false;break;
+                default:log.warn("Uncorerct unswer"); main(str);
             }
         }
         while (isWorking);
+        input.close();
         System.exit(200);
     }
 
     private static void Start() throws MyCustomeException, IOException {
-        boolean isCorrect = false;
+
         log.info("Are you going to work with file or console");
         log.info("1: File");
         log.info("2: Console");
 
-        int answer = input.nextInt();
+            String answer = input.nextLine();
             switch (answer)
             {
-                case 1: WorkWithFile();  break;
-                case 2: WorkWithConsole(); break;
-                default: log.info("uncorrect"); Start();
+                case "1": WorkWithFile();  break;
+                case "2": WorkWithConsole(); break;
+                default: log.info("uncorrected"); Start();
             }
             saveSession();
     }
 
     private static void saveSession() throws IOException {
-        /*try {
-            StringHelper.readFile("src/main/resources/Result");
-        }
-        catch (IOException e)
-        {*/
-            String[] str = new String[]{"========="};
-            StringHelper.writeInFile("Result", ".txt", str);
-            log.debug("result file was written");
-       /* }
-        finally
-        {*/
+
             writeDownAllResults();
-        /*}*/
     }
 
     private static void writeDownAllResults() throws IOException {
@@ -174,10 +166,7 @@ public class Main {
 
         File fromFile = new File(fileRef);
 
-       // FileUtils.copyFile(fromFile, toFile);
-        //Files.copy(fromFile.toPath(), toFile.toPath());
             List<String> lines = FileUtils.readLines(fromFile, StandardCharsets.UTF_8);
-            /*FileUtils.writeLines(toFile, lines);*/
             return lines;
     }
 
@@ -197,7 +186,7 @@ public class Main {
     private static void readFromConsoleForSearchingTheMatches(String fileFormat, String text) throws MyCustomeException, IOException {
         var word = getWordFromConsole();
         var dictionary = StringHelper.devineByWords(text);
-        var textResult = StringHelper.HW_28_11_2(dictionary, word);
+        var textResult = StringHelper.saveMatches(dictionary, word);
         StringHelper.writeInFile("File with information about count of matches", fileFormat, textResult);
         for (var element:textResult) {
             log.info(element);
@@ -205,7 +194,7 @@ public class Main {
     }
 
     private static void readFromConsoleForLetters(String text, String fileFormat) throws IOException {
-        var textResult = StringHelper.HW_28_11_1(text);
+        var textResult = StringHelper.saveLetters(text);
         StringHelper.writeInFile("File with up-case letters", fileFormat, textResult);
         for (var element:textResult) {
             log.info(element);
@@ -213,7 +202,9 @@ public class Main {
     }
 
     private static void readFromConsoleForUniqueWords(String text, String fileFormar) throws IOException {
-        var resultText = StringHelper.HW_28_11_0(text);
+        var a = StringHelper.ConvertFromStringToCharArrayList(text);
+        var str = StringHelper.transformation(a);
+        var resultText = StringHelper.saveUniqueWords(str);
         StringHelper.writeInFile("Count of unique words", fileFormar, resultText);
         for (var element:resultText) {
             log.info(element);
