@@ -3,6 +3,7 @@ package com.solvd.mavenFile;
 import com.solvd.mavenFile.exception.MyCustomeException;
 import com.solvd.mavenFile.file.FileWorker;
 import com.solvd.mavenFile.stringHelpers.StringHelper;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import java.io.IOException;
@@ -11,7 +12,6 @@ public class Main {
 
     public static Logger log = LogManager.getLogger(Main.class);
     static Scanner input = new Scanner(System.in);
-
     public static void readFromFileForUniqueWords(String fileName, String fileFormat, String fileText) throws IOException {
         StringHelper.writeInFile(fileName, fileFormat, fileText);
         var characterArrayList = StringHelper.readFile(fileName, fileFormat);
@@ -50,30 +50,25 @@ public class Main {
     public static String getWordFromConsole() throws MyCustomeException {
         String anwser = "";
         log.info("Enter your word");
-        try {
-            anwser = input.nextLine();
             try {
-                Integer.parseInt(anwser);
-                throw new MyCustomeException("Answer is number");
-
-            } catch (NumberFormatException e)
-            {
-                log.debug("answer is not numeric");
+                anwser = input.nextLine();
+                if (StringUtils.isNumeric(anwser))
+                    throw new MyCustomeException("Answer should be string, not number");
+                if (StringUtils.length(anwser) < 2)
+                    throw new MyCustomeException("Entered word was so little");
+                if (StringHelper.CheckCymbols(anwser))
+                    throw new MyCustomeException("You entered 1 or more special characters");
+                if (StringHelper.CheckFigure(anwser))
+                    throw new MyCustomeException("You entered one or more figure");
+                if (StringHelper.CheckSpace(anwser))
+                    throw new MyCustomeException("You entered a text, not single world");
             }
-            if(anwser.length()==1)
-                throw new MyCustomeException("Entered word was so little");
-            if(StringHelper.CheckCymbols(anwser))
-                throw new MyCustomeException("You entered 1 or more special characters");
-            if(StringHelper.CheckFigure(anwser))
-                throw new MyCustomeException("You entered one or more figure");
-            if(StringHelper.CheckSpace(anwser))
-                throw new MyCustomeException("You entered a text, not single world");
-        }
-        catch(MyCustomeException e)
-        {
-          log.info(e.getMessage());
-          getWordFromConsole();
-        }
+            catch (MyCustomeException ex)
+            {
+                log.warn(ex.getMessage());
+                getWordFromConsole();
+            }
+
         return anwser;
     }
 
@@ -117,7 +112,6 @@ public class Main {
     private static void WorkWithConsole() throws MyCustomeException, IOException {
         log.info("Enter your text");
         String text = input.nextLine();
-        String fileName = "file";
         String fileFormat = ".txt";
         readFromConsoleForUniqueWords(text, fileFormat);
         readFromConsoleForLetters(text, fileFormat);

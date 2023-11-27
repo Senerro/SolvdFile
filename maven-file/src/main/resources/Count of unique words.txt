@@ -1,3 +1,3 @@
-default text is bara bara bara bere bere bere
-[ bara ] [ bere ] 
- Text has 2 unique word
+default text is Some text and other something interesting some
+[ text ][ and ][ other ][ something ][ interesting ][ some ] 
+ Text has 6 unique word

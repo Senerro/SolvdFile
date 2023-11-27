@@ -102,8 +102,6 @@ public class StringHelper
     {
         for(int i = 0; i < letters.size()-1; i++)
         {
-            var a = letters.get(i);
-            var b = letters.get(i+1);
             if(letters.get(i) == ' ')
                 continue;
             if(letters.get(i+1) != ' ')
