@@ -1,18 +1,1 @@
 =========
-default text is Some text and other something interesting some
-[ text ][ and ][ other ][ something ][ interesting ][ some ] 
- Text has 6 unique word
-
-
-default text is Some text and other something interesting some
-
-Current text is S O M E T E X T A N D O T H E R S O M E T H I N G I N T E R E S T I N G S O M E
-Count of letters at whole is 40
-
-
-default text is Some text and other something interesting some
- Searchable word is 
-Matches count is 0
-
-
-===============

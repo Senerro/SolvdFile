@@ -57,7 +57,7 @@ public class StringAnalyzer {
     public static boolean CheckSymbols(String str)
     {
 
-        return StringUtils.containsAny(str, ",", ".", "&", "?", "!", "@", "#", "$", "%", "^", "*", "(", ")", "+", "-", "/", "|", "<", ">", "\n", "\t", "\n");
+        return StringUtils.containsAny(str, ",", ".", "&", "?", "!", "@", "#", "$", "%", "^", "*", "(", ")", "+", "-", "/", "|", "<", ">", "\n", "\t");
     }
 
     public static boolean CheckFigure(String str)

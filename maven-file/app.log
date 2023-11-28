@@ -88,3 +88,49 @@
 [INFO ] 2023-11-27 14:58:51.864 [main] Main - Are you going to do smth or quit?
 [INFO ] 2023-11-27 14:58:51.865 [main] Main - [1] continue
 [INFO ] 2023-11-27 14:58:51.865 [main] Main - [2] quit]
+[INFO ] 2023-11-27 15:28:58.247 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-27 15:28:58.251 [main] Main - [1] continue
+[INFO ] 2023-11-27 15:28:58.252 [main] Main - [2] quit]
+[INFO ] 2023-11-27 15:29:01.817 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-27 15:29:01.818 [main] Main - 1: File
+[INFO ] 2023-11-27 15:29:01.818 [main] Main - 2: Console
+[INFO ] 2023-11-27 15:29:02.223 [main] Main - default text is Some text and other something interesting some
+[INFO ] 2023-11-27 15:29:02.224 [main] Main - [ text ][ and ][ other ][ something ][ interesting ][ some ] 
+[INFO ] 2023-11-27 15:29:02.224 [main] Main -  Text has 6 unique word
+[INFO ] 2023-11-27 15:29:02.230 [main] Main - default text is Some text and other something interesting some
+
+[INFO ] 2023-11-27 15:29:02.230 [main] Main - Current text is S O M E T E X T A N D O T H E R S O M E T H I N G I N T E R E S T I N G S O M E
+[INFO ] 2023-11-27 15:29:02.231 [main] Main - Count of letters at whole is 40
+[INFO ] 2023-11-27 15:29:02.233 [main] Main - Enter your word
+[INFO ] 2023-11-27 15:29:13.354 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-27 15:29:13.361 [main] Main - [1] continue
+[INFO ] 2023-11-27 15:29:13.362 [main] Main - [2] quit]
+[INFO ] 2023-11-27 15:29:14.181 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-27 15:29:14.182 [main] Main - 1: File
+[INFO ] 2023-11-27 15:29:14.182 [main] Main - 2: Console
+[INFO ] 2023-11-27 15:29:14.606 [main] Main - default text is Some text and other something interesting some
+[INFO ] 2023-11-27 15:29:14.606 [main] Main - [ text ][ and ][ other ][ something ][ interesting ][ some ] 
+[INFO ] 2023-11-27 15:29:14.607 [main] Main -  Text has 6 unique word
+[INFO ] 2023-11-27 15:29:14.613 [main] Main - default text is Some text and other something interesting some
+
+[INFO ] 2023-11-27 15:29:14.614 [main] Main - Current text is S O M E T E X T A N D O T H E R S O M E T H I N G I N T E R E S T I N G S O M E
+[INFO ] 2023-11-27 15:29:14.614 [main] Main - Count of letters at whole is 40
+[INFO ] 2023-11-27 15:29:14.618 [main] Main - Enter your word
+[WARN ] 2023-11-27 15:29:40.023 [main] Main - Entered word was so little
+[INFO ] 2023-11-27 15:29:40.025 [main] Main - Enter your word
+[INFO ] 2023-11-27 15:29:59.196 [main] Main - Are you going to do smth or quit?
+[INFO ] 2023-11-27 15:29:59.201 [main] Main - [1] continue
+[INFO ] 2023-11-27 15:29:59.202 [main] Main - [2] quit]
+[INFO ] 2023-11-27 15:30:00.671 [main] Main - Are you going to work with file or console
+[INFO ] 2023-11-27 15:30:00.672 [main] Main - 1: File
+[INFO ] 2023-11-27 15:30:00.673 [main] Main - 2: Console
+[INFO ] 2023-11-27 15:30:01.043 [main] Main - default text is Some text and other something interesting some
+[INFO ] 2023-11-27 15:30:01.043 [main] Main - [ text ][ and ][ other ][ something ][ interesting ][ some ] 
+[INFO ] 2023-11-27 15:30:01.043 [main] Main -  Text has 6 unique word
+[INFO ] 2023-11-27 15:30:01.051 [main] Main - default text is Some text and other something interesting some
+
+[INFO ] 2023-11-27 15:30:01.052 [main] Main - Current text is S O M E T E X T A N D O T H E R S O M E T H I N G I N T E R E S T I N G S O M E
+[INFO ] 2023-11-27 15:30:01.053 [main] Main - Count of letters at whole is 40
+[INFO ] 2023-11-27 15:30:01.056 [main] Main - Enter your word
+[WARN ] 2023-11-27 15:30:23.655 [main] Main - Entered word was so little
+[INFO ] 2023-11-27 15:30:26.606 [main] Main - Enter your word
