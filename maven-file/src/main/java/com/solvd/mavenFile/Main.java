@@ -102,14 +102,14 @@ public class Main {
             String answer = input.nextLine();
             switch (answer)
             {
-                case "1": WorkWithFile();  break;
-                case "2": WorkWithConsole(); break;
+                case "1": workWithFile();  break;
+                case "2": workWithConsole(); break;
                 default: log.info("uncorrected"); Start();
             }
          FileWorker.saveSession();
     }
 
-    private static void WorkWithConsole() throws MyCustomeException, IOException {
+    private static void workWithConsole() throws MyCustomeException, IOException {
         log.info("Enter your text");
         String text = input.nextLine();
         String fileFormat = ".txt";
@@ -146,7 +146,7 @@ public class Main {
         }
     }
 
-    private static void WorkWithFile() throws IOException, MyCustomeException {
+    private static void workWithFile() throws IOException, MyCustomeException {
         String fileName = "file";
         String fileFormat = ".txt";
         String fileText = "Some text and other something interesting some.";

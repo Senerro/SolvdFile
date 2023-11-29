@@ -1,4 +1,4 @@
-default text is Some text and other something interesting some
+default text is ООП позволяет создавать повторно используемый код
 
-Current text is S O M E T E X T A N D O T H E R S O M E T H I N G I N T E R E S T I N G S O M E
-Count of letters at whole is 40
+Current text is О О П П О З В О Л Я Е Т С О З Д А В А Т Ь П О В Т О Р Н О И С П О Л Ь З У Е М Ы Й К О Д
+Count of letters at whole is 44
